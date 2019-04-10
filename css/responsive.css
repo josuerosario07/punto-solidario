@@ -72,7 +72,14 @@
       width: 170px; }
     footer .enlaces .e6 {
       margin-left: 0px; } }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
+  .link-sites {
+    flex-flow: column; }
+    .link-sites .foro,
+    .link-sites .psweb,
+    .link-sites .servicio-en-linea {
+      width: 100%; } }
+@media screen and (max-width: 415px) {
   .carousel .carousel-inner {
     height: 245px; }
     .carousel .carousel-inner .carousel-item {
@@ -88,11 +95,23 @@
         .carousel .carousel-inner .carousel-item .carousel-caption p {
           font-size: 12px; }
 
-  .btns .btn-1 {
+  .btn-mobile .btns .btn-1 {
     width: 147px;
     font-size: 10px; }
-  .btns .btn-2 {
+  .btn-mobile .btns .btn-2 {
     width: 147px;
-    font-size: 10px; } }
+    font-size: 10px; }
+
+  .middle-resume {
+    text-align: left; }
+    .middle-resume .logo {
+      display: none !important; }
+    .middle-resume h2 {
+      font-size: 20px; }
+    .middle-resume p {
+      font-size: 12px;
+      text-align: left !important; }
+    .middle-resume .divider {
+      width: 200px; } }
 
 /*# sourceMappingURL=responsive.css.map */

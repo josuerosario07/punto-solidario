@@ -116,7 +116,18 @@ header{
     }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:700px){
+    .link-sites{
+        flex-flow: column;
+        .foro,
+        .psweb,
+        .servicio-en-linea{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:415px){
     .carousel{
         .carousel-inner{
             height: 245px;
@@ -139,14 +150,32 @@ header{
             }
         }
     }
-    .btns{
-        .btn-1{
-            width: 147px;
-        font-size: 10px;
+    .btn-mobile{
+        .btns{
+            .btn-1{
+                width: 147px;
+            font-size: 10px;
+            }
+            .btn-2{
+                width: 147px;
+            font-size: 10px;
+            }
         }
-        .btn-2{
-            width: 147px;
-        font-size: 10px;
+    }
+    .middle-resume{
+        text-align: left;
+        .logo{
+            display: none !important;
+        }
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 12px;
+            text-align: left !important;
+        }
+        .divider{
+            width: 200px;
         }
     }
 }
