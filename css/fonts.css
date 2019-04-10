@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@font-face {
+  font-family: helvetica-bold;
+  src: url(../assets/fonts/Helvetica-Bold.woff); }
+@font-face {
+  font-family: helvetica;
+  src: url(../assets/fonts/Helvetica.woff); }
+@font-face {
+  font-family: helvetica-light;
+  src: url(../assets/fonts/helvetica-light-587ebe5a59211.woff); }
+@font-face {
+  font-family: raleway;
+  src: url(../assets/fonts/raleway/Raleway-Regular.ttf); }
+@font-face {
+  font-family: raleway-black;
+  src: url(../assets/fonts/raleway/Raleway-Black.ttf); }
+@font-face {
+  font-family: raleway-m;
+  src: url(../assets/fonts/raleway/Raleway-Medium.ttf); }
+@font-face {
+  font-family: raleway;
+  src: url(../assets/fonts/raleway/Raleway-SemiBold.ttf); }
+@font-face {
+  font-family: raleway-l;
+  src: url(../assets/fonts/raleway/Raleway-Light.ttf); }
+
+/*# sourceMappingURL=fonts.css.map */

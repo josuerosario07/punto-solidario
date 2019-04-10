@@ -1,0 +1,655 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import 'fonts';
+
+$rojo-solidario: #C50000;
+$morado-solidario:#0700B5;
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    p{
+        font-family: raleway-m;
+    }
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+::-webkit-input-placeholder{
+    color: white !important;
+    opacity: 1 !important;
+   }
+   .form-control{
+       color:  black !important;
+   }
+.divider{
+    width: 400px;
+    height: 3px;
+    background-color: $rojo-solidario;
+    border-radius: 28px;
+    display: block;
+    margin: 15px auto;
+}
+.red-text{
+    color: $rojo-solidario;
+}
+.container-special{
+    max-width: 1500px !important;
+}
+header{
+    background-color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    max-height: 167px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .16);
+    .gobernet-brand{
+        padding-right: 35px;
+    }
+    .escudo{
+        margin-top: 15px;
+    }
+    .search{
+        margin-top: 5px;
+        border: solid 1px #ccc;
+        .form-control {
+            border: none;
+            height: 33px;
+            border-radius: 0px;
+        }
+    }
+    .search button {
+        border: 0;
+        background: transparent;
+        padding-left: 0;
+        padding-top: 0;
+        height: 26px;
+        margin-top: 0px;
+             img {
+                padding: 11px 11px 4px 10px;
+                width: 40px;
+                margin-top: -1px;
+                border-left: solid 1px #ccc;
+        }
+    }
+    .top-menu{
+        margin-bottom: 0px;
+            li{
+                display: inline-block;
+                a{
+                    padding: 0px 5px;
+                    border-left: solid 1px #ccc;
+                    text-transform: uppercase;
+                    font-size: 0.77rem;
+                    color: #000;
+                }
+                .primero{
+                    border-left: 0px;
+                }
+            }
+    }
+}
+nav{
+    background-color: white;
+    font-family: helvetica-bold ;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 5px !important;
+    padding-bottom: 0px !important; 
+     li .nav-link{
+       color: black !important;
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+    li .nav-link:hover{
+        color: $rojo-solidario !important;
+        transition: 0.3s;
+    }
+    .active a{
+        color: $rojo-solidario !important;
+    }
+    .ps-web-link{
+        width: 120px;
+        margin-top: -3px;
+    }
+}
+
+.logo{
+    img{
+        max-width: 280px;
+        margin-top: 40px;
+    }
+}
+.content-slider{
+    margin-top: 136px;
+}
+.carousel-caption{
+    margin-bottom: 12%;
+    h1{
+        font-size: 70px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    p{
+        font-size: 27px;
+        font-weight: bold;
+    }
+    .btn{
+        min-width: 290px;
+        min-height: 41px;
+        border:none;
+        border-radius: 0px;
+        font-family: 'montserrat', sans-serif;
+    }
+    .btn:hover{
+        background-color: black;
+    }
+    .btn-1{
+        margin-right: 20px;
+        background-color: $rojo-solidario;
+    }
+    .btn-2{
+        margin-left: 20px;
+        background-color: $morado-solidario;
+    }
+}
+
+.middle-resume{
+    .logo{
+        margin-top: 74px;
+        margin-bottom: 94px;
+        max-width: 374px;
+    }
+    h2{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    p{
+        font-size: 32px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+}
+.about-ps{
+    padding: 74px;
+    margin-top: 30px;
+    .container{
+        max-width: 1500px !important;
+    }
+    h4{
+        font-weight: bold;
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    
+    .video{
+        height: 395px;
+    }
+}
+.values{
+    background-color: #F4F2F2;
+    padding-bottom: 70px;
+    margin-top: -30px;
+    padding-top: 100px;
+    .container{
+        max-width: 1500px !important;
+    }
+    h3{
+        margin-top: 50px;
+        margin-bottom: 24px;
+        font-weight: 800;
+        font-size: 40px;
+    }
+    p{
+        img{
+            margin-right: 20px;
+        }
+        .negrita{
+            font-family: raleway-black;
+            font-weight: bold;
+        }
+    }
+    .current{
+        margin-top: 30px;
+    }
+    .accordion{
+        background-color: transparent !important;
+        border: none !important;
+        .card{
+            margin-bottom: 12px;
+        }
+        .card-header{
+            background-color: white;
+        }
+    }
+    .accordion{
+        .btn{
+            font-family: raleway-black;
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+.link-sites{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    min-height: 960px;
+    .foro,
+    .psweb,
+    .servicio-en-linea
+    {
+        display: flex;
+        flex-flow: column;
+        flex: 1 1 auto;
+        width: 33.33%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .divider{
+            width: 50px;
+            z-index: 99;
+        }
+    }
+    .background-filter{
+        width: 100%;
+        position: absolute;
+        background-color: black;
+        min-height: 960px;
+        opacity: 0.58;
+        
+    }
+    .foro{
+        background-image: url(../assets/img/bg-1@2x.jpg);
+    }
+    .psweb{
+        background-image: url(../assets/img/bg-2@2x.jpg);
+    }
+    .servicio-en-linea{
+        background-image: url(../assets/img/bg-3@2x.jpg);
+    }
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        z-index: 99;
+        // margin-top: 75%;
+    }
+    .btn{
+        z-index: 99;
+        border: none;
+        border-radius: 0px;
+        background-color: $rojo-solidario;
+        width: 200px;
+        margin-top: 15px;
+    }
+}
+.news {
+    padding: 50px;
+    background-color: #F4F2F2;
+    h1{
+        font-weight: 800;
+    }
+    .divider{
+        width: 200px;
+        margin-top: 12px;
+    }
+    .card{
+        padding: 10px;
+        margin-top: 70px;
+        .coment{
+            margin-right: 20px;
+        }
+    }
+    h4{
+        font-weight: 800;
+        color: $rojo-solidario;
+        margin-top: 25px;
+        margin-bottom: 35px;
+        padding-left: 12px;
+    }
+    p{
+        padding-left: 12px;
+    }
+}
+.forms{
+    background-color: black;
+    color: white;
+    min-height: 598px;
+    padding: 50px;
+   h1{
+    font-weight: 800;
+    padding-top: 70px;
+   }
+   P{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+   }
+   form{
+       margin-top: 130px;
+       input{
+           border: none;
+           border-radius: 0px;
+           background-color: rgba(255, 255, 255, .26);
+           transition: 0.3s;
+       }
+   }
+   .btn{
+    margin-top: 130px;
+    width: 100%;
+    background-color: $rojo-solidario;
+    border: none;
+    border-radius: 0;
+   }
+   .btn:hover{
+       background-color: white;
+       color: $rojo-solidario;
+   }
+}
+
+.contact{
+    padding-top: 100px;
+    background-color: #F4F2F2;
+    padding-bottom: 100px;
+    .divider{
+        width: 200px;
+    }
+    h1{
+        font-weight: 800;
+    }
+    .btn{
+        background-color: $rojo-solidario;
+        border:none;
+        border-radius: 0;
+    }
+}
+.contac-form{
+    background-color: black;
+    color: white;
+    min-height: 598px;
+    padding: 50px;
+   h1{
+    font-weight: 800;
+    padding-top: 70px;
+   }
+   P{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 130px;
+   }
+   form{
+       margin-top: 60px;
+       input{
+           border: none;
+           border-radius: 0px;
+           background-color: rgba(255, 255, 255, .26);
+           transition: 0.3s;
+       }
+   }
+   textarea{
+    margin-top: 60px;
+    height: 400px;
+    border: none;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, .26);
+    transition: 0.3s;
+}
+   .btn{
+    margin-top: 10px;
+    width: 100%;
+    background-color: $rojo-solidario;
+    border: none;
+    border-radius: 0;
+   }
+   .btn:hover{
+       background-color: white;
+       color: $rojo-solidario;
+   }
+}
+.banner-mini{
+    display: flex;
+    flex-direction: row wrap;
+    flex-flow: row;
+    margin-top: 70px;
+    height: 300px;
+    .c1,
+    .c2,
+    .c3,
+    .c4,
+    .c5{
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .c1{
+        background-image: url(../assets/img/c1@2x.jpg);
+        flex: 1 1 auto;
+    }
+    .c2{
+        background-image: url(../assets/img/c2@2x.jpg);
+        flex: 1 1 auto;
+    }
+    .c3{
+        background-image: url(../assets/img/c3@2x.jpg);
+        flex: 1 1 auto;
+    }
+    .c4{
+        background-image: url(../assets/img/c4@2x.jpg);
+        flex: 1 1 auto;
+    }
+    .c5{
+        background-image: url(../assets/img/c5@2x.jpg);
+        flex: 1 1 auto;
+    }
+}
+.interes{
+
+    h3{
+        font-weight: bold;
+    }
+    .divider{
+        width: 200px;
+    }
+    ul{
+        margin: 80px auto; 
+        li{
+            display: inline-block;
+            margin-left: 40px;
+            margin-right: 40px;
+
+        }
+    }
+}
+footer{
+    color: $morado-solidario;
+    background-color: white;
+    .container{
+        max-width: 1400px;
+    }
+    .enlaces{
+        display: flex;
+        flex-direction: row nowrap;
+        margin-top: 150px;
+    }
+    .e1,
+    .e2,
+    .e3,
+    .e4,
+    .e5,
+    .e6{
+        display: flex;
+        flex-flow: column;
+        flex: 1 1 auto;
+        align-items: flex-start;
+        a{
+            font-weight: 600;
+            color: $morado-solidario;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        ul li a{
+            color: $morado-solidario;
+            font-weight: normal;
+        }
+    }
+    .e5{
+        align-items: flex-start;
+    }
+    .e6{
+        align-items: flex-start;
+    }
+    
+    h4{
+        font-size: 16px;
+        font-weight: bold;
+        color: $morado-solidario;
+        margin-bottom: 10px;
+    }
+    a{
+        color: $morado-solidario;
+    }
+    p{
+        font-weight: 600;
+        margin-top: -10px;
+    }
+}
+// preguntas Frecuentes
+.banner-preguntas{
+    min-height:533px;
+    background-image: url(../assets/img/banner@2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    .jumbotron{
+        background-color: transparent;
+        padding-top: 116px;
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            font-size: 70px;
+            color: white;
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            color: white;
+        }
+        .btn{
+            border: none;
+            border-radius: 0;
+            background-color: $rojo-solidario;
+        }
+    }
+}
+.values-preguntas{
+    margin-top: -30px;
+    .accordion{
+        margin-top: 50px;
+        .card-header{
+            min-height: 88px !important;
+        }
+        .btn{
+            font-family: raleway;
+            font-weight: lighter !important;
+            text-align: left;
+        }
+    }
+}
+.c-1{
+    margin-top: -35px;
+}
+
+.divider-footer{
+    width: 100%;
+    height: 1px;
+    border-radius: 38px;
+    background-color: rgb(231, 231, 231);
+    margin-top: 30px;
+}
+// page news
+.titulares{
+    padding-bottom: 0px;
+}
+.news-container{
+    padding-top: 0px;
+    .container{
+        max-width: 1500px !important;
+            .card{
+                margin-top: 40px;
+                h4{
+                    a{
+                        color: $rojo-solidario;
+                    }
+                }
+            }
+    }
+}
+#pagination-news{
+    box-shadow: none;
+    margin-bottom: 70px;
+    .pagination{
+        margin-top: 50px;
+        .page-link {
+            padding: 1.5rem 1.75rem;
+            color: $morado-solidario;
+        }
+        .active .page-link{
+            color: white !important;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, .16);
+            background-color: $morado-solidario;
+        }
+    }
+}
+
+.news-captain-title{
+    background-color: white;
+    h3{
+        color: $rojo-solidario;
+    }
+}
+
+.body-news-captain{
+    .notice{
+        img{
+            width: 100%;
+        }
+        h5{
+            font-weight: normal;
+            font-size: 15px;
+            color: rgb(151, 151, 151)
+        }
+        p{
+            text-align: justify;
+        }
+    }
+    .titulares-recientes{
+       h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+       }
+       h4{
+           font-weight: bold;
+           margin-top: 25px;
+       }
+       p{
+           font-weight: normal;
+           font-size: 15px;
+           margin-top: 15px;
+       }
+    }
+}
+@import 'responsive';
