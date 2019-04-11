@@ -23,13 +23,52 @@
 
 @media screen and (max-width: 992px) {
   header {
-    max-height: 300px; } }
+    max-height: 300px;
+    position: relative !important;
+    padding-left: 0px;
+    padding-right: 0px; }
+    header .top-mobile {
+      display: block; }
+    header .divider {
+      width: 100%;
+      height: 2px; }
+    header .logo-top-mobile {
+      display: block !important;
+      margin: 10px auto; } }
+    @media screen and (max-width: 992px) and (max-width: 350px) {
+      header .logo-top-mobile {
+        width: 250px; } }
+@media screen and (max-width: 992px) {
+    header hr {
+      display: block;
+      margin-bottom: 0px; } }
 @media screen and (max-width: 992px) {
   header .navbar {
-    padding: 10px !important; } }
-@media screen and (max-width: 768px) {
-  header {
-    position: relative !important; } }
+    padding: 10px !important; }
+    header .navbar form {
+      display: inline-block !important;
+      width: 90% !important; }
+      header .navbar form input {
+        width: 100% !important;
+        border-radius: 0px; } }
+@media screen and (max-width: 665px) {
+  header .navbar form {
+    width: 83% !important; }
+    header .navbar form input {
+      width: 100% !important;
+      border-radius: 0px; } }
+@media screen and (max-width: 665px) {
+  header .navbar form {
+    width: 80% !important; }
+    header .navbar form input {
+      width: 100% !important;
+      border-radius: 0px; } }
+@media screen and (max-width: 350px) {
+  header .navbar form {
+    width: 77% !important; }
+    header .navbar form input {
+      width: 100% !important;
+      border-radius: 0px; } }
 
 .btn-mobile .btn {
   margin: 20px auto !important;
@@ -46,8 +85,14 @@
   background-color: #0700B5; }
 
 @media screen and (max-width: 992px) {
+  .escudo-top {
+    display: block !important;
+    margin: 0px auto;
+    padding-top: 20px;
+    width: 250px; }
+
   .content-slider {
-    margin-top: 52px;
+    margin-top: -1px;
     text-align: left; }
     .content-slider h1 {
       font-size: 40px;
@@ -64,7 +109,16 @@
     .forms p {
       margin-bottom: 50px; }
     .forms form, .forms .btn {
-      margin-top: 20px; } }
+      margin-top: 20px; }
+
+  .values p {
+    text-align: justify; }
+
+  .banner-preguntas {
+    margin-top: -1px; }
+
+  .contac-form P {
+    margin-bottom: 20px; } }
 @media screen and (max-width: 768px) {
   .btns {
     margin-top: 50px; }
@@ -90,7 +144,19 @@
       margin-right: 0px;
       width: 170px; }
     footer .enlaces .e6 {
-      margin-left: 0px; } }
+      margin-left: 0px; }
+
+  .banner-preguntas {
+    min-height: 100px !important; }
+    .banner-preguntas .jumbotron {
+      padding: 34px; }
+      .banner-preguntas .jumbotron h1 {
+        font-size: 40px; }
+      .banner-preguntas .jumbotron p {
+        font-size: 18px; }
+
+  .values {
+    padding-top: 0px; } }
 @media screen and (max-width: 700px) {
   .link-sites {
     flex-flow: column; }
@@ -99,6 +165,10 @@
     .link-sites .servicio-en-linea {
       width: 100%; } }
 @media screen and (max-width: 450px) {
+  header {
+    padding-left: 0px;
+    padding-right: 0px; }
+
   .carousel .carousel-inner {
     height: 245px; }
     .carousel .carousel-inner .carousel-item {
@@ -179,12 +249,43 @@
     order: 5; }
   footer .e6 {
     order: 6;
-    margin-left: 20px !important; } }
-@media screen and (max-width: 325px) {
+    margin-left: 20px !important; }
+
+  .values h3 {
+    font-size: 25px; }
+  .values p {
+    font-size: 12px; }
+  .values .card-body {
+    font-size: 12px; }
+
+  .body-news-captain .notice p {
+    font-size: 12px; }
+
+  .contact h1 {
+    font-size: 25px; }
+  .contact p {
+    font-size: 12px;
+    text-align: justify; }
+
+  .contac-form {
+    padding: 50px 20px; }
+    .contac-form h1 {
+      font-size: 25px;
+      text-align: left !important;
+      padding-top: 30px; }
+    .contac-form p {
+      text-align: left !important;
+      margin-bottom: 60px; }
+    .contac-form form, .contac-form textarea {
+      margin-top: 10px; } }
+@media screen and (max-width: 330px) {
   .content-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
     font-size: 20px !important; }
 
   .btn-mobile .btn-2 {
-    margin-top: 0px !important; } }
+    margin-top: 0px !important; }
+
+  .intereses h3 {
+    font-size: 25px; } }
 
 /*# sourceMappingURL=responsive.css.map */
