@@ -42,6 +42,9 @@ body{
 .container-special{
     max-width: 1500px !important;
 }
+.mobile-logo{
+    display: none;
+}
 header{
     background-color: white;
     padding-right: 50px;
@@ -90,6 +93,11 @@ header{
                 }
                 .primero{
                     border-left: 0px;
+                }
+            }
+            .active{
+                a{
+                    color: $rojo-solidario;
                 }
             }
     }

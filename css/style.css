@@ -61,6 +61,9 @@ body {
 .container-special {
   max-width: 1500px !important; }
 
+.mobile-logo {
+  display: none; }
+
 header {
   background-color: white;
   padding-right: 50px;
@@ -102,6 +105,8 @@ header {
         color: #000; }
       header .top-menu li .primero {
         border-left: 0px; }
+    header .top-menu .active a {
+      color: #C50000; }
 
 nav {
   background-color: white;
@@ -558,6 +563,22 @@ footer {
 @media screen and (max-width: 1100px) {
   .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
     margin-bottom: 20px; } }
+@media screen and (max-width: 992px) {
+  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 60px; } }
+@media screen and (max-width: 800px) {
+  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 30px; } }
+@media screen and (max-width: 750px) {
+  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: -10px; } }
+@media screen and (max-width: 570px) {
+  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 0px; }
+    .content-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+      font-size: 25px; }
+    .content-slider .carousel .carousel-inner .carousel-item .carousel-caption p {
+      font-size: 15px; } }
 
 @media screen and (max-width: 992px) {
   header {
@@ -565,6 +586,9 @@ footer {
 @media screen and (max-width: 992px) {
   header .navbar {
     padding: 10px !important; } }
+@media screen and (max-width: 768px) {
+  header {
+    position: relative !important; } }
 
 .btn-mobile .btn {
   margin: 20px auto !important;
@@ -589,7 +613,17 @@ footer {
       text-align: left; }
     .content-slider p {
       font-size: 20px;
-      text-align: left; } }
+      text-align: left; }
+
+  .link-sites h3 {
+    font-size: 1.25rem !important; }
+
+  .forms {
+    padding: 50px 20px; }
+    .forms p {
+      margin-bottom: 50px; }
+    .forms form, .forms .btn {
+      margin-top: 20px; } }
 @media screen and (max-width: 768px) {
   .btns {
     margin-top: 50px; }
@@ -600,22 +634,12 @@ footer {
   .middle-resume .logo {
     margin-bottom: 54px; }
 
-  .link-sites h3 {
-    font-size: 1.25rem; }
-
   .news {
     padding: 50px 20px; }
     .news h4 {
       font-size: 18px; }
     .news p {
       font-size: 12px; }
-
-  .forms {
-    padding: 50px 20px; }
-    .forms p {
-      margin-bottom: 50px; }
-    .forms form, .forms .btn {
-      margin-top: 20px; }
 
   footer .enlaces {
     flex-flow: row wrap; }
@@ -633,7 +657,7 @@ footer {
     .link-sites .psweb,
     .link-sites .servicio-en-linea {
       width: 100%; } }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 450px) {
   .carousel .carousel-inner {
     height: 245px; }
     .carousel .carousel-inner .carousel-item {
@@ -642,30 +666,84 @@ footer {
         height: 245px;
         width: auto !important; }
       .carousel .carousel-inner .carousel-item .carousel-caption {
-        display: block !important;
-        margin-bottom: 12px; }
+        display: block !important; }
         .carousel .carousel-inner .carousel-item .carousel-caption h1 {
           font-size: 20px; }
         .carousel .carousel-inner .carousel-item .carousel-caption p {
           font-size: 12px; }
 
-  .btn-mobile .btns .btn-1 {
-    width: 147px;
-    font-size: 10px; }
-  .btn-mobile .btns .btn-2 {
-    width: 147px;
-    font-size: 10px; }
+  .btn-mobile .btn {
+    min-width: 167px; }
+  .btn-mobile .btns {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .btn-mobile .btns .btn-1 {
+      width: 147px;
+      font-size: 10px; }
+    .btn-mobile .btns .btn-2 {
+      width: 147px;
+      font-size: 10px; }
 
-  .middle-resume {
-    text-align: left; }
-    .middle-resume .logo {
-      display: none !important; }
-    .middle-resume h2 {
-      font-size: 20px; }
-    .middle-resume p {
+  .middle-resume .logo {
+    display: none !important; }
+  .middle-resume .mobile-logo {
+    display: inline-block;
+    width: 30px;
+    margin-left: 6px; }
+  .middle-resume h2 {
+    font-size: 15px;
+    text-align: left !important; }
+  .middle-resume p {
+    font-size: 12px;
+    text-align: left !important; }
+  .middle-resume .divider {
+    width: 100%;
+    height: 1px; }
+
+  .about-ps {
+    padding: 0px 0px 74px 0px; }
+    .about-ps h4 {
+      font-size: 15px; }
+    .about-ps p {
+      font-size: 12px;
+      text-align: justify; }
+    .about-ps .video {
+      height: auto; }
+
+  .news {
+    padding: 50px 0px; }
+    .news h1 {
+      font-size: 25px; }
+
+  .forms {
+    padding: 30px 20px;
+    min-height: auto; }
+    .forms h1 {
+      font-size: 25px;
+      text-align: left !important;
+      padding-top: 0px; }
+    .forms p {
       font-size: 12px;
       text-align: left !important; }
-    .middle-resume .divider {
-      width: 200px; } }
+
+  footer .e1 {
+    order: 1; }
+  footer .e2 {
+    order: 2; }
+  footer .e3 {
+    order: 4; }
+  footer .e4 {
+    order: 3; }
+  footer .e5 {
+    order: 5; }
+  footer .e6 {
+    order: 6;
+    margin-left: 20px !important; } }
+@media screen and (max-width: 325px) {
+  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 20px !important; }
+
+  .btn-mobile .btn-2 {
+    margin-top: 0px !important; } }
 
 /*# sourceMappingURL=style.css.map */

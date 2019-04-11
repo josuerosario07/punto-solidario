@@ -10,6 +10,29 @@ $morado-solidario:#0700B5;
         margin-bottom: 20px;
     
     }
+
+    @media screen and (max-width:992px){
+        margin-bottom: 60px;
+    
+    }
+    @media screen and (max-width:800px){
+        margin-bottom: 30px;
+    
+    }
+    @media screen and (max-width:750px){
+        margin-bottom: -10px;
+    
+    }
+    @media screen and (max-width:570px){
+        margin-bottom: 0px;
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+    
+    }
     
 }
 
@@ -21,6 +44,9 @@ header{
         @media screen and (max-width:992px){
             padding: 10px !important;
         }
+    }
+    @media screen and (max-width:768px){
+        position: relative !important;
     }
 }
 
@@ -50,9 +76,6 @@ header{
     .content-slider{
         margin-top: 52px;
         text-align: left;
-        .carousel-caption{
-            // margin-bottom: 20px;
-        }
         h1{
             font-size: 40px;
             text-align: left;
@@ -60,6 +83,20 @@ header{
         p{
             font-size: 20px;
             text-align: left;
+        }
+    }
+    .link-sites{
+        h3{
+            font-size: 1.25rem !important; 
+        }
+    }
+    .forms{
+        padding: 50px 20px;
+        p{
+            margin-bottom: 50px;
+        }
+        form, .btn{
+            margin-top: 20px;
         }
     }
 }
@@ -76,11 +113,11 @@ header{
             margin-bottom: 54px;
         }
     }
-    .link-sites{
-        h3{
-            font-size: 1.25rem; 
-        }
-    }
+    // .link-sites{
+    //     h3{
+    //         font-size: 1.25rem; 
+    //     }
+    // }
     .news{
         padding:50px 20px;
         h4{
@@ -90,15 +127,15 @@ header{
             font-size: 12px;
         }
     }
-    .forms{
-        padding: 50px 20px;
-        p{
-            margin-bottom: 50px;
-        }
-        form, .btn{
-            margin-top: 20px;
-        }
-    }
+    // .forms{
+    //     padding: 50px 20px;
+    //     p{
+    //         margin-bottom: 50px;
+    //     }
+    //     form, .btn{
+    //         margin-top: 20px;
+    //     }
+    // }
     footer{
         .enlaces{
             flex-flow: row wrap;
@@ -127,7 +164,7 @@ header{
     }
 }
 
-@media screen and (max-width:415px){
+@media screen and (max-width:450px){
     .carousel{
         .carousel-inner{
             height: 245px;
@@ -139,7 +176,6 @@ header{
                 }
                 .carousel-caption{
                     display: block !important;
-                    margin-bottom: 12px;
                     h1{
                         font-size: 20px;
                     }
@@ -151,7 +187,12 @@ header{
         }
     }
     .btn-mobile{
+        .btn{
+            min-width: 167px;
+        }
         .btns{
+            margin-top: 30px;
+            margin-bottom: 30px;
             .btn-1{
                 width: 147px;
             font-size: 10px;
@@ -163,19 +204,89 @@ header{
         }
     }
     .middle-resume{
-        text-align: left;
         .logo{
             display: none !important;
         }
+        .mobile-logo{
+            display: inline-block;
+            width: 30px;
+            margin-left: 6px;
+        }
         h2{
-            font-size: 20px;
+            font-size: 15px;
+            text-align: left !important;
         }
         p{
             font-size: 12px;
             text-align: left !important;
         }
         .divider{
-            width: 200px;
+            width: 100%;
+            height: 1px;
         }
+    }
+
+    .about-ps{
+        padding: 0px 0px 74px 0px;
+        h4{
+            font-size: 15px;
+        }
+        p{
+            font-size: 12px;
+            text-align: justify;
+        }
+        .video{
+            height: auto;
+        }
+    }
+    .news{
+        padding: 50px 0px;
+        h1{
+            font-size: 25px;
+        }
+    }
+    .forms{
+        padding: 30px 20px;
+        min-height: auto;
+        h1{
+            font-size: 25px;
+            text-align: left !important;
+            padding-top: 0px;
+        }
+        p{
+            font-size: 12px;
+            text-align: left !important;
+        }
+    }
+    footer{
+        .e1{
+           order: 1;
+        }
+        .e2{
+            order: 2;
+        }
+        .e3{
+            order: 4;
+        }
+        .e4{
+            order: 3;
+        }
+        .e5{
+            order: 5;
+        }
+        .e6{
+            order: 6;
+           margin-left: 20px !important;
+        }
+
+    }
+}
+
+@media screen and (max-width: 325px){
+    .content-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 20px !important;
+    }
+    .btn-mobile .btn-2 {
+        margin-top: 0px !important;
     }
 }
