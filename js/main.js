@@ -22,3 +22,23 @@ $(document).ready(function(){
   });
 
 
+  $(function() {
+    var header = $("#header");
+    $(window).scroll(function() {    
+        var windowWidth =  $(window).width();
+        
+        var scroll = $(window).scrollTop();
+        
+        if(windowWidth > 992)
+        {
+            if (scroll >= 200) {
+                header.removeClass('punto-solidario-normal').addClass("punto-solidario-plus");
+            } else {
+                header.removeClass("punto-solidario-plus").addClass('punto-solidario-normal');
+            }
+        }
+
+    });
+});
+
+

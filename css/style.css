@@ -67,50 +67,50 @@ body {
 .top-mobile {
   display: none; }
 
-header {
+.punto-solidario-normal {
   background-color: white;
   padding-right: 50px;
   padding-left: 50px;
   max-height: 167px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16); }
-  header hr {
+  .punto-solidario-normal hr {
     display: none; }
-  header .gobernet-brand {
+  .punto-solidario-normal .gobernet-brand {
     padding-right: 35px; }
-  header .escudo {
+  .punto-solidario-normal .escudo {
     margin-top: 15px; }
-  header .search {
+  .punto-solidario-normal .search {
     margin-top: 5px;
     border: solid 1px #ccc; }
-    header .search .form-control {
+    .punto-solidario-normal .search .form-control {
       border: none;
       height: 33px;
       border-radius: 0px; }
-  header .search button {
+  .punto-solidario-normal .search button {
     border: 0;
     background: transparent;
     padding-left: 0;
     padding-top: 0;
     height: 26px;
     margin-top: 0px; }
-    header .search button img {
+    .punto-solidario-normal .search button img {
       padding: 11px 11px 4px 10px;
       width: 40px;
       margin-top: -1px;
       border-left: solid 1px #ccc; }
-  header .top-menu {
+  .punto-solidario-normal .top-menu {
     margin-bottom: 0px; }
-    header .top-menu li {
+    .punto-solidario-normal .top-menu li {
       display: inline-block; }
-      header .top-menu li a {
+      .punto-solidario-normal .top-menu li a {
         padding: 0px 5px;
         border-left: solid 1px #ccc;
         text-transform: uppercase;
         font-size: 0.77rem;
         color: #000; }
-      header .top-menu li .primero {
+      .punto-solidario-normal .top-menu li .primero {
         border-left: 0px; }
-    header .top-menu .active a {
+    .punto-solidario-normal .top-menu .active a {
       color: #C50000; }
 
 nav {
@@ -136,6 +136,28 @@ nav {
 .logo img {
   max-width: 280px;
   margin-top: 40px; }
+
+.logo-plus {
+  display: none; }
+
+.punto-solidario-plus {
+  height: 80px !important;
+  top: 0;
+  transition: 0.3s; }
+  .punto-solidario-plus hr {
+    display: none; }
+  .punto-solidario-plus .primary-nav {
+    display: none !important; }
+  .punto-solidario-plus .logo {
+    display: block !important; }
+  .punto-solidario-plus .navbar {
+    background-color: white; }
+    .punto-solidario-plus .navbar .logo-plus {
+      display: block; }
+      .punto-solidario-plus .navbar .logo-plus img {
+        margin-top: 0px !important; }
+    .punto-solidario-plus .navbar ul li {
+      display: inline-block !important; }
 
 .content-slider {
   margin-top: 136px; }
@@ -610,51 +632,51 @@ footer {
       font-size: 15px; } }
 
 @media screen and (max-width: 992px) {
-  header {
+  .punto-solidario-normal {
     max-height: 300px;
     position: relative !important;
     padding-left: 0px;
     padding-right: 0px; }
-    header .top-mobile {
+    .punto-solidario-normal .top-mobile {
       display: block; }
-    header .divider {
+    .punto-solidario-normal .divider {
       width: 100%;
       height: 2px; }
-    header .logo-top-mobile {
+    .punto-solidario-normal .logo-top-mobile {
       display: block !important;
       margin: 10px auto; } }
     @media screen and (max-width: 992px) and (max-width: 350px) {
-      header .logo-top-mobile {
+      .punto-solidario-normal .logo-top-mobile {
         width: 250px; } }
 @media screen and (max-width: 992px) {
-    header hr {
+    .punto-solidario-normal hr {
       display: block;
       margin-bottom: 0px; } }
 @media screen and (max-width: 992px) {
-  header .navbar {
+  .punto-solidario-normal .navbar {
     padding: 10px !important; }
-    header .navbar form {
+    .punto-solidario-normal .navbar form {
       display: inline-block !important;
       width: 90% !important; }
-      header .navbar form input {
+      .punto-solidario-normal .navbar form input {
         width: 100% !important;
         border-radius: 0px; } }
 @media screen and (max-width: 665px) {
-  header .navbar form {
+  .punto-solidario-normal .navbar form {
     width: 83% !important; }
-    header .navbar form input {
+    .punto-solidario-normal .navbar form input {
       width: 100% !important;
       border-radius: 0px; } }
 @media screen and (max-width: 665px) {
-  header .navbar form {
+  .punto-solidario-normal .navbar form {
     width: 80% !important; }
-    header .navbar form input {
+    .punto-solidario-normal .navbar form input {
       width: 100% !important;
       border-radius: 0px; } }
 @media screen and (max-width: 350px) {
-  header .navbar form {
+  .punto-solidario-normal .navbar form {
     width: 77% !important; }
-    header .navbar form input {
+    .punto-solidario-normal .navbar form input {
       width: 100% !important;
       border-radius: 0px; } }
 
@@ -756,7 +778,7 @@ footer {
     .link-sites .servicio-en-linea {
       width: 100%; } }
 @media screen and (max-width: 450px) {
-  header {
+  .punto-solidario-normal {
     padding-left: 0px;
     padding-right: 0px; }
 

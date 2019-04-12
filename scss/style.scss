@@ -48,7 +48,8 @@ body{
 .top-mobile{
     display: none;
 }
-header{
+.punto-solidario-normal{
+    
     background-color: white;
     padding-right: 50px;
     padding-left: 50px;
@@ -139,6 +140,51 @@ nav{
         margin-top: 40px;
     }
 }
+
+.logo-plus{
+    display: none;
+}
+
+
+
+// other nav{
+    .punto-solidario-plus{
+        height: 80px !important;
+        top: 0;
+        transition: 0.3s;
+        hr{
+            display: none;
+        }
+        .primary-nav{
+            display: none !important;
+        }
+        .logo{
+            display: block !important;
+        }
+        .navbar{
+            background-color: white;
+            .logo-plus{
+                display: block;
+                img{
+                    margin-top: 0px !important;
+                }
+               
+            }
+            ul{
+                // display: table !important;
+                li{
+                    display: inline-block !important;
+                }
+                // a{
+                //     color: white !important;
+                // }
+            }
+        }
+
+    }
+
+
+
 .content-slider{
     margin-top: 136px;
 }

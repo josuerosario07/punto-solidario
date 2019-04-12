@@ -40,7 +40,7 @@ $morado-solidario:#0700B5;
 
 // resoluciones del header
 
-header{
+.punto-solidario-normal{
     @media screen and (max-width:992px){
         .top-mobile{
             display: block;
@@ -287,7 +287,7 @@ header{
 }
 
 @media screen and (max-width:450px){
-    header{
+    .punto-solidario-normal{
         padding-left: 0px;
         padding-right: 0px;
     }
