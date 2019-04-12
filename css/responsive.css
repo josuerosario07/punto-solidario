@@ -252,7 +252,9 @@
     order: 5; }
   footer .e6 {
     order: 6;
-    margin-left: 20px !important; }
+    align-items: center; }
+  footer .info-footer p {
+    font-size: 13px; }
 
   .values h3 {
     font-size: 25px; }

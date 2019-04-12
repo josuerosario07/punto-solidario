@@ -402,7 +402,12 @@ header{
         }
         .e6{
             order: 6;
-           margin-left: 20px !important;
+            align-items: center;
+        }
+        .info-footer{
+            p{
+                font-size: 13px;
+            }
         }
 
     }
