@@ -548,7 +548,7 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 80px;
+    margin-top: 121px;
     .jumbotron{
         background-color: transparent;
         padding-top: 116px;
@@ -605,10 +605,17 @@ footer{
         max-width: 1500px !important;
             .card{
                 margin-top: 40px;
+                padding-bottom: 20px;
                 h4{
                     a{
                         color: $rojo-solidario;
                     }
+                }
+                .btn{
+                    background-color: $rojo-solidario;
+                    border: none;
+                    border-radius: 0px;
+                    font-family: raleway-m;
                 }
             }
     }

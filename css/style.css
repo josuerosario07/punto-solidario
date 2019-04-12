@@ -476,7 +476,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 80px; }
+  margin-top: 121px; }
   .banner-preguntas .jumbotron {
     background-color: transparent;
     padding-top: 116px; }
@@ -523,9 +523,15 @@ footer {
   .news-container .container {
     max-width: 1500px !important; }
     .news-container .container .card {
-      margin-top: 40px; }
+      margin-top: 40px;
+      padding-bottom: 20px; }
       .news-container .container .card h4 a {
         color: #C50000; }
+      .news-container .container .card .btn {
+        background-color: #C50000;
+        border: none;
+        border-radius: 0px;
+        font-family: raleway-m; }
 
 #pagination-news {
   box-shadow: none;
