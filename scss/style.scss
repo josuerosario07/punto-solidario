@@ -667,4 +667,30 @@ footer{
        }
     }
 }
+
+.content{
+    margin-top: 210px;
+    h2{
+        font-weight: 800;
+    }
+    .divider{
+        margin: 0;
+        width: 220px;
+    }
+    .lista{
+        margin-top: 40px;
+        margin-left: 80px;
+        li{
+            margin-bottom: 5px;
+            font-weight: 600;
+            span{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
 @import 'responsive';

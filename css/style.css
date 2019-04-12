@@ -564,6 +564,22 @@ footer {
   font-size: 15px;
   margin-top: 15px; }
 
+.content {
+  margin-top: 210px; }
+  .content h2 {
+    font-weight: 800; }
+  .content .divider {
+    margin: 0;
+    width: 220px; }
+  .content .lista {
+    margin-top: 40px;
+    margin-left: 80px; }
+    .content .lista li {
+      margin-bottom: 5px;
+      font-weight: 600; }
+      .content .lista li span a {
+        color: black; }
+
 @media screen and (max-width: 1440px) {
   .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
     margin-bottom: 6%; } }
@@ -684,7 +700,10 @@ footer {
     margin-top: -1px; }
 
   .contac-form P {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .content {
+    margin-top: 20px; } }
 @media screen and (max-width: 768px) {
   .btns {
     margin-top: 50px; }
