@@ -67,11 +67,14 @@ body {
 .top-mobile {
   display: none; }
 
+header {
+  background-color: white; }
+
 .punto-solidario-normal {
   background-color: white;
   padding-right: 50px;
   padding-left: 50px;
-  max-height: 167px;
+  max-height: 148px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
   transition: 0.3s !important; }
   .punto-solidario-normal hr {
@@ -79,7 +82,9 @@ body {
   .punto-solidario-normal .gobernet-brand {
     padding-right: 35px; }
   .punto-solidario-normal .escudo {
-    margin-top: 15px; }
+    margin-top: 5px;
+    height: 36px;
+    margin-left: 29px; }
   .punto-solidario-normal .search {
     margin-top: 5px;
     border: solid 1px #ccc; }
@@ -223,11 +228,13 @@ nav {
     margin-bottom: 24px;
     font-weight: 800;
     font-size: 40px; }
-  .values p img {
-    margin-right: 20px; }
-  .values p .negrita {
-    font-family: raleway-black;
-    font-weight: bold; }
+  .values p {
+    text-align: justify; }
+    .values p img {
+      margin-right: 20px; }
+    .values p .negrita {
+      font-family: raleway-black;
+      font-weight: bold; }
   .values .current {
     margin-top: 30px; }
   .values .accordion {
@@ -304,7 +311,8 @@ nav {
     margin-top: 12px; }
   .news .card {
     padding: 10px;
-    margin-top: 70px; }
+    margin-top: 70px;
+    padding-bottom: 30px; }
     .news .card .coment {
       margin-right: 20px; }
   .news h4 {
@@ -324,7 +332,13 @@ nav {
     background-color: #C50000;
     border: none;
     border-radius: 0px;
-    font-family: raleway-m; }
+    font-family: raleway-m;
+    padding-right: 15px;
+    border: solid 1px #C50000; }
+  .news .btn:hover {
+    background-color: white;
+    color: #C50000;
+    transition: 0.3s; }
 
 .forms {
   background-color: black;
@@ -371,7 +385,8 @@ nav {
   background-color: black;
   color: white;
   min-height: 598px;
-  padding: 50px; }
+  padding: 50px;
+  display: none; }
   .contac-form h1 {
     font-weight: 800;
     padding-top: 30px; }
@@ -569,7 +584,13 @@ footer {
         background-color: #C50000;
         border: none;
         border-radius: 0px;
-        font-family: raleway-m; }
+        font-family: raleway-m;
+        padding-right: 15px;
+        border: solid 1px #C50000; }
+      .news-container .container .card .btn:hover {
+        background-color: white;
+        color: #C50000;
+        transition: 0.3s; }
 
 #pagination-news {
   box-shadow: none;
@@ -672,7 +693,7 @@ footer {
     text-align: center;
     padding: 17px;
     width: 230px;
-    border-top: solid 5px #1394d0;
+    border-top: solid 5px #2469ae;
     z-index: 5;
     background: #fff;
     position: relative;
@@ -693,7 +714,7 @@ footer {
     text-align: center;
     padding: 17px;
     width: 230px;
-    border-top: solid 5px #1394d0;
+    border-top: solid 5px #2469ae;
     z-index: 5;
     background: #fff;
     position: relative;
@@ -723,7 +744,7 @@ footer {
     text-align: center;
     padding: 17px;
     width: 90%;
-    border-top: solid 5px #1394D0;
+    border-top: solid 5px #2469ae;
     background: #fff;
     z-index: 3;
     position: relative;

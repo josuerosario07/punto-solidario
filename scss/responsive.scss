@@ -1,478 +1,446 @@
 $rojo-solidario: #C50000;
 $morado-solidario:#0700B5;
-
 // resolciones del slider caption
-
 .content-slider .carousel .carousel-inner .carousel-item .carousel-caption{
-    @media screen and (max-width:1440px){
-        margin-bottom: 6%;
-    
-    }
-    @media screen and (max-width:1100px){
-        margin-bottom: 20px;
-    
-    }
-
-    @media screen and (max-width:992px){
-        margin-bottom: 60px;
-    
-    }
-    @media screen and (max-width:800px){
-        margin-bottom: 30px;
-    
-    }
-    @media screen and (max-width:750px){
-        margin-bottom: -10px;
-    
-    }
-    @media screen and (max-width:570px){
-        margin-bottom: 0px;
-        h1{
-            font-size: 25px;
-        }
-        p{
-            font-size: 15px;
-        }
-    
-    }
-    
+@media screen and (max-width:1440px){
+margin-bottom: 6%;
 }
-
+@media screen and (max-width:1100px){
+margin-bottom: 20px;
+}
+@media screen and (max-width:992px){
+margin-bottom: 60px;
+}
+@media screen and (max-width:800px){
+margin-bottom: 30px;
+}
+@media screen and (max-width:750px){
+margin-bottom: -10px;
+}
+@media screen and (max-width:570px){
+margin-bottom: 0px;
+h1{
+font-size: 25px;
+}
+p{
+font-size: 15px;
+}
+}
+}
 // resoluciones del header
-
 .punto-solidario-normal{
-    @media screen and (max-width:992px){
-        .top-mobile{
-            display: block;
-        }
-        max-height: 300px;
-        position: relative !important;
-        padding-left: 0px;
-        padding-right: 0px;
-        .divider{
-            width: 100%;
-            height: 2px;
-        }
-        .logo-top-mobile{
-            display: block !important;
-            margin: 10px auto;
-            @media screen and (max-width:350px){
-                width: 250px;
-            }
-
-        }
-        hr{
-            display: block;
-            margin-bottom: 0px;
-        }
-    }
-    .navbar{
-        @media screen and (max-width:992px){
-            padding: 10px !important;
-            form{
-                display: inline-block !important;
-                width: 90% !important;
-                input{
-                    width: 100% !important;
-                    border-radius: 0px;
-                }
-            }
-        }
-        @media screen and (max-width:665px){
-            form{
-                width: 83% !important;
-                input{
-                    width: 100% !important;
-                    border-radius: 0px;
-                }
-            }
-        }
-        @media screen and (max-width:665px){
-            form{
-                width: 80% !important;
-                input{
-                    width: 100% !important;
-                    border-radius: 0px;
-                }
-            }
-        }
-        @media screen and (max-width:350px){
-            form{
-                width: 77% !important;
-                input{
-                    width: 100% !important;
-                    border-radius: 0px;
-                }
-            }
-        }
-    }
- 
+@media screen and (max-width:992px){
+.top-mobile{
+display: block;
 }
-
+max-height: 300px;
+position: relative !important;
+padding-left: 0px;
+padding-right: 0px;
+.divider{
+width: 100%;
+height: 2px;
+}
+.logo-top-mobile{
+display: block !important;
+margin: 10px auto;
+@media screen and (max-width:350px){
+width: 250px;
+}
+}
+hr{
+display: block;
+margin-bottom: 0px;
+}
+}
+.navbar{
+@media screen and (max-width:992px){
+padding: 10px !important;
+form{
+display: inline-block !important;
+width: 90% !important;
+input{
+width: 100% !important;
+border-radius: 0px;
+}
+}
+}
+@media screen and (max-width:665px){
+form{
+width: 83% !important;
+input{
+width: 100% !important;
+border-radius: 0px;
+}
+}
+}
+@media screen and (max-width:665px){
+form{
+width: 80% !important;
+input{
+width: 100% !important;
+border-radius: 0px;
+}
+}
+}
+@media screen and (max-width:350px){
+form{
+width: 77% !important;
+input{
+width: 100% !important;
+border-radius: 0px;
+}
+}
+}
+}
+}
 .btn-mobile{
-    .btn{
-        margin: 20px auto !important;
-        min-width: 290px;
-        min-height: 41px;
-        border:none;
-        border-radius: 0px;
-        font-family: 'montserrat', sans-serif;
-    }
-    .btn:hover{
-        background-color: black;
-    }
-    .btn-1{
-        background-color: $rojo-solidario;
-    }
-    .btn-2{
-        background-color: $morado-solidario;
-    }
+.btn{
+margin: 20px auto !important;
+min-width: 290px;
+min-height: 41px;
+border:none;
+border-radius: 0px;
+font-family: 'montserrat', sans-serif;
 }
-
+.btn:hover{
+background-color: black;
+}
+.btn-1{
+background-color: $rojo-solidario;
+}
+.btn-2{
+background-color: $morado-solidario;
+}
+}
 // mapa de sitio hardcore
 @media screen and (max-width:1310px){
-    .content{
-        .responsive-sitemap {
-            margin-top: 30px;
-            padding-left: 7% !important;
-        }
-    }
+.content{
+.responsive-sitemap {
+margin-top: 30px;
+padding-left: 7% !important;
 }
-
-
+}
+}
 // genral
-
 @media screen and (max-width:992px){
-    .escudo-top{
-        display: block !important;
-        margin: 0px auto;
-        padding-top: 20px;
-        width: 250px
-    }
-    // #mr{
-    //     margin-right: auto !important;
-    //     margin-left: 0px !important;
-    // }
-    // .navbar-collapse{
-    //     height: 110vh;
-    //     width: 100%;
-    //     top: -187px;
-    //     position: absolute;
-    //     background-color: #00000078 !important;
-    //     left: 0 !important;
-    //     transition: 0.5s;
-        
-    //     ul{
-    //         height: 110vh;
-    //         background-color: white;
-    //         width: 203px;
-    //         position: relative;
-    //         z-index: 99;
-    //         padding-top: 66px;
-    //         li{
-    //             margin-bottom: 10px;
-    //         }
-    //     }
-    // }
-    .content-slider{
-        margin-top: -1px;
-        text-align: left;
-        h1{
-            font-size: 40px;
-            text-align: left;
-        }
-        p{
-            font-size: 20px;
-            text-align: left;
-        }
-    }
-    .link-sites{
-        h3{
-            font-size: 1.25rem !important; 
-        }
-    }
-    .forms{
-        padding: 50px 20px;
-        p{
-            margin-bottom: 50px;
-        }
-        form, .btn{
-            margin-top: 20px;
-        }
-    }
-    .values{
-        p{
-            text-align: justify;
-        }
-    }
-    .banner-preguntas{
-        margin-top: -1px;
-    }
-    .contac-form P{
-        margin-bottom: 20px;
-    }
-    .content{
-        margin-top: 20px;
-        }
+.escudo-top{
+display: block !important;
+margin: 0px auto;
+padding-top: 20px;
+width: 250px
 }
-
-
+// #mr{
+//     margin-right: auto !important;
+//     margin-left: 0px !important;
+// }
+// .navbar-collapse{
+//     height: 110vh;
+//     width: 100%;
+//     top: -187px;
+//     position: absolute;
+//     background-color: #00000078 !important;
+//     left: 0 !important;
+//     transition: 0.5s;
+//     ul{
+//         height: 110vh;
+//         background-color: white;
+//         width: 203px;
+//         position: relative;
+//         z-index: 99;
+//         padding-top: 66px;
+//         li{
+//             margin-bottom: 10px;
+//         }
+//     }
+// }
+.content-slider{
+margin-top: -1px;
+text-align: left;
+h1{
+font-size: 40px;
+text-align: left;
+}
+p{
+font-size: 20px;
+text-align: left;
+}
+}
+.link-sites{
+h3{
+font-size: 1.25rem !important; 
+}
+}
+.forms{
+padding: 50px 20px;
+p{
+margin-bottom: 50px;
+}
+form, .btn{
+margin-top: 20px;
+}
+}
+.values{
+p{
+text-align: justify;
+}
+}
+.banner-preguntas{
+margin-top: -1px;
+}
+.contac-form P{
+margin-bottom: 20px;
+}
+.content{
+margin-top: 20px;
+}
+}
 @media screen and (max-width:768px){
-    .btns{
-        margin-top: 50px;
-    }
-    .about-ps{
-        padding: 74px 20px;
-    }
-    .middle-resume {
-        .logo{
-            margin-bottom: 54px;
-        }
-    }
-    // .link-sites{
-    //     h3{
-    //         font-size: 1.25rem; 
-    //     }
-    // }
-    .news{
-        padding:50px 20px;
-        h4{
-            font-size: 18px;
-        }
-        p{
-            font-size: 12px;
-        }
-    }
-    // .forms{
-    //     padding: 50px 20px;
-    //     p{
-    //         margin-bottom: 50px;
-    //     }
-    //     form, .btn{
-    //         margin-top: 20px;
-    //     }
-    // }
-    footer{
-        .enlaces{
-            flex-flow: row wrap;
-            .en{
-                margin: 20px;
-            }
-            .e5{
-                margin-right: 0px;
-                width: 170px;
-            }
-            .e6{
-                margin-left: 0px;
-            }
-        }
-    }
-
-    .banner-preguntas{
-        min-height: 100px !important;
-        .jumbotron{
-            padding: 34px;
-            h1{
-                font-size: 40px;
-            }
-            p{
-                font-size: 18px;
-            }
-        }
-        
-    }
-    .values{
-        padding-top: 0px;
-    }
+.btns{
+margin-top: 50px;
 }
-
+.about-ps{
+padding: 74px 20px;
+}
+.middle-resume {
+.logo{
+margin-bottom: 54px;
+}
+}
+// .link-sites{
+//     h3{
+//         font-size: 1.25rem; 
+//     }
+// }
+.news{
+padding:50px 20px;
+h4{
+font-size: 18px;
+}
+p{
+font-size: 12px;
+}
+}
+// .forms{
+//     padding: 50px 20px;
+//     p{
+//         margin-bottom: 50px;
+//     }
+//     form, .btn{
+//         margin-top: 20px;
+//     }
+// }
+footer{
+.enlaces{
+flex-flow: row wrap;
+.en{
+margin: 20px;
+}
+.e5{
+margin-right: 0px;
+width: 170px;
+}
+.e6{
+margin-left: 0px;
+}
+}
+}
+.banner-preguntas{
+min-height: 100px !important;
+.jumbotron{
+padding: 34px;
+h1{
+font-size: 40px;
+}
+p{
+font-size: 18px;
+}
+}
+}
+.values{
+padding-top: 0px;
+}
+}
 @media screen and (max-width:700px){
-    .link-sites{
-        flex-flow: column;
-        .foro,
-        .psweb,
-        .servicio-en-linea{
-            width: 100%;
-        }
-    }
+.link-sites{
+flex-flow: column;
+.foro,
+.psweb,
+.servicio-en-linea{
+width: 100%;
 }
-
+}
+}
 @media screen and (max-width:450px){
-    .punto-solidario-normal{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .carousel{
-        .carousel-inner{
-            height: 245px;
-            .carousel-item{
-                height: 245px;
-                img{
-                    height: 245px;
-                    width: auto !important;
-                }
-                .carousel-caption{
-                    display: block !important;
-                    h1{
-                        font-size: 20px;
-                    }
-                    p{
-                        font-size: 12px;
-                    }
-                }
-            }
-        }
-    }
-    .btn-mobile{
-        .btn{
-            min-width: 167px;
-        }
-        .btns{
-            margin-top: 30px;
-            margin-bottom: 30px;
-            .btn-1{
-                width: 147px;
-            font-size: 10px;
-            }
-            .btn-2{
-                width: 147px;
-            font-size: 10px;
-            }
-        }
-    }
-    .middle-resume{
-        .logo{
-            display: none !important;
-        }
-        .mobile-logo{
-            display: inline-block;
-            width: 30px;
-            margin-left: 6px;
-        }
-        h2{
-            font-size: 15px;
-            text-align: left !important;
-        }
-        p{
-            font-size: 12px;
-            text-align: left !important;
-        }
-        .divider{
-            width: 100%;
-            height: 1px;
-        }
-    }
-
-    .about-ps{
-        padding: 0px 0px 74px 0px;
-        h4{
-            font-size: 15px;
-        }
-        p{
-            font-size: 12px;
-            text-align: justify;
-        }
-        .video{
-            height: auto;
-        }
-    }
-    .news{
-        padding: 50px 0px;
-        h1{
-            font-size: 25px;
-        }
-    }
-    .forms{
-        padding: 30px 20px;
-        min-height: auto;
-        h1{
-            font-size: 25px;
-            text-align: left !important;
-            padding-top: 0px;
-        }
-        p{
-            font-size: 12px;
-            text-align: left !important;
-        }
-    }
-    footer{
-        .e1{
-           order: 1;
-        }
-        .e2{
-            order: 2;
-        }
-        .e3{
-            order: 4;
-        }
-        .e4{
-            order: 3;
-        }
-        .e5{
-            order: 5;
-        }
-        .e6{
-            order: 6;
-            align-items: center;
-        }
-        .info-footer{
-            p{
-                font-size: 13px;
-            }
-        }
-
-    }
-    .values{
-        h3{
-            font-size: 25px;
-        }
-        p{
-            font-size: 12px;
-        }
-        .card-body{
-            font-size: 12px;
-        }
-    }
-
-    .body-news-captain .notice p {
-        font-size: 12px;
-    }
-
-    .contact{
-        h1{
-            font-size: 25px;
-        }
-        p{
-            font-size: 12px;
-            text-align: justify;
-        }
-    }
-
-    .contac-form{
-        padding: 50px 20px;
-        h1{
-            font-size: 25px;
-            text-align: left !important;
-            padding-top: 30px;
-        }
-        p{
-            text-align: left !important;
-            margin-bottom: 60px;
-        }
-        form, textarea{
-            margin-top: 10px;
-        }
-    }
+.punto-solidario-normal{
+padding-left: 0px;
+padding-right: 0px;
 }
-
+.carousel{
+.carousel-inner{
+height: 245px;
+.carousel-item{
+height: 245px;
+img{
+height: 245px;
+width: auto !important;
+}
+.carousel-caption{
+display: block !important;
+h1{
+font-size: 20px;
+}
+p{
+font-size: 12px;
+}
+}
+}
+}
+}
+.btn-mobile{
+.btn{
+min-width: 167px;
+}
+.btns{
+margin-top: 30px;
+margin-bottom: 30px;
+.btn-1{
+width: 147px;
+font-size: 10px;
+}
+.btn-2{
+width: 147px;
+font-size: 10px;
+}
+}
+}
+.middle-resume{
+.logo{
+display: none !important;
+}
+.mobile-logo{
+display: inline-block;
+width: 30px;
+margin-left: 6px;
+}
+h2{
+font-size: 15px;
+text-align: left !important;
+}
+p{
+font-size: 12px;
+text-align: left !important;
+}
+.divider{
+width: 100%;
+height: 1px;
+}
+}
+.about-ps{
+padding: 0px 0px 74px 0px;
+h4{
+font-size: 15px;
+}
+p{
+font-size: 12px;
+text-align: justify;
+}
+.video{
+height: auto;
+}
+}
+.news{
+padding: 50px 0px;
+h1{
+font-size: 25px;
+}
+}
+.forms{
+padding: 30px 20px;
+min-height: auto;
+h1{
+font-size: 25px;
+text-align: left !important;
+padding-top: 0px;
+}
+p{
+font-size: 12px;
+text-align: left !important;
+}
+}
+footer{
+.e1{
+order: 1;
+}
+.e2{
+order: 2;
+}
+.e3{
+order: 4;
+}
+.e4{
+order: 3;
+}
+.e5{
+order: 5;
+}
+.e6{
+order: 6;
+align-items: center;
+}
+.info-footer{
+p{
+font-size: 13px;
+}
+}
+}
+.values{
+h3{
+font-size: 25px;
+}
+p{
+font-size: 12px;
+}
+.card-body{
+font-size: 12px;
+}
+}
+.body-news-captain .notice p {
+font-size: 12px;
+}
+.contact{
+h1{
+font-size: 25px;
+}
+p{
+font-size: 12px;
+text-align: justify;
+}
+}
+.contac-form{
+padding: 50px 20px;
+h1{
+font-size: 25px;
+text-align: left !important;
+padding-top: 30px;
+}
+p{
+text-align: left !important;
+margin-bottom: 60px;
+}
+form, textarea{
+margin-top: 10px;
+}
+}
+}
 @media screen and (max-width: 330px){
-    .content-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
-        font-size: 20px !important;
-    }
-    .btn-mobile .btn-2 {
-        margin-top: 0px !important;
-    }
-    .intereses h3{
-        font-size: 25px;
-    }
+.content-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+font-size: 20px !important;
+}
+.btn-mobile .btn-2 {
+margin-top: 0px !important;
+}
+.intereses h3{
+font-size: 25px;
+}
 }

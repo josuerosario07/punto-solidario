@@ -19,8 +19,11 @@ $(document).ready(function(){
             }
         }
     })
+    
+    $(".escribir").click(function(){
+        $(".contac-form").slideToggle();
+      });
   });
-
 
   $(function() {
     var header = $("#header");
@@ -40,5 +43,3 @@ $(document).ready(function(){
 
     });
 });
-
-
