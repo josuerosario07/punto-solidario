@@ -129,6 +129,17 @@ $morado-solidario:#0700B5;
     }
 }
 
+// mapa de sitio hardcore
+@media screen and (max-width:1310px){
+    .content{
+        .responsive-sitemap {
+            margin-top: 30px;
+            padding-left: 7% !important;
+        }
+    }
+}
+
+
 // genral
 
 @media screen and (max-width:992px){
@@ -202,7 +213,7 @@ $morado-solidario:#0700B5;
     }
     .content{
         margin-top: 20px;
-    }
+        }
 }
 
 

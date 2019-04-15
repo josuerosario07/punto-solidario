@@ -84,6 +84,10 @@
 .btn-mobile .btn-2 {
   background-color: #0700B5; }
 
+@media screen and (max-width: 1310px) {
+  .content .responsive-sitemap {
+    margin-top: 30px;
+    padding-left: 7% !important; } }
 @media screen and (max-width: 992px) {
   .escudo-top {
     display: block !important;
