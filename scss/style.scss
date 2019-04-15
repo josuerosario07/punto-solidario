@@ -373,6 +373,7 @@
     }
     p{
     padding-left: 12px;
+    text-align: justify;
     }
     a{
     text-decoration: none;
@@ -637,6 +638,7 @@
     margin-top: -30px;
     .accordion{
     margin-top: 50px;
+    // text-align: justify !important;
     .card-header{
     min-height: 88px !important;
     }

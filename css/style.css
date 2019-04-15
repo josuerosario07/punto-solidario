@@ -320,7 +320,8 @@ nav {
     margin-bottom: 35px;
     padding-left: 12px; }
   .news p {
-    padding-left: 12px; }
+    padding-left: 12px;
+    text-align: justify; }
   .news a {
     text-decoration: none; }
   .news img:hover {
