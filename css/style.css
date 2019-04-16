@@ -64,6 +64,9 @@ body {
 .mobile-logo {
   display: none; }
 
+video {
+  width: 100%; }
+
 .top-mobile {
   display: none; }
 
@@ -166,8 +169,16 @@ nav {
 .content-slider {
   margin-top: 136px; }
 
+.carousel-item {
+  height: 750px !important;
+  display: flex !important;
+  flex-flow: row wrap !important; }
+  .carousel-item img {
+    width: auto !important; }
+
 .carousel-caption {
-  margin-bottom: 12%; }
+  bottom: inherit !important;
+  margin-top: 290px; }
   .carousel-caption h1 {
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
@@ -321,7 +332,7 @@ nav {
     padding-left: 12px; }
   .news p {
     padding-left: 12px;
-    text-align: justify; }
+    text-align: justify !important; }
   .news a {
     text-decoration: none; }
   .news img:hover {
@@ -1098,29 +1109,6 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     display: inline-block; } }
-@media screen and (max-width: 1440px) {
-  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-    margin-bottom: 6%; } }
-@media screen and (max-width: 1100px) {
-  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-    margin-bottom: 20px; } }
-@media screen and (max-width: 992px) {
-  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-    margin-bottom: 60px; } }
-@media screen and (max-width: 800px) {
-  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-    margin-bottom: 30px; } }
-@media screen and (max-width: 750px) {
-  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-    margin-bottom: -10px; } }
-@media screen and (max-width: 570px) {
-  .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-    margin-bottom: 0px; }
-    .content-slider .carousel .carousel-inner .carousel-item .carousel-caption h1 {
-      font-size: 25px; }
-    .content-slider .carousel .carousel-inner .carousel-item .carousel-caption p {
-      font-size: 15px; } }
-
 @media screen and (max-width: 992px) {
   .punto-solidario-normal {
     max-height: 300px;
@@ -1205,6 +1193,11 @@ footer {
       font-size: 20px;
       text-align: left; }
 
+  .content-slider .carousel .carousel-inner .carousel-item {
+    height: 450px !important; }
+    .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
+      margin-top: 150px; }
+
   .link-sites h3 {
     font-size: 1.25rem !important; }
 
@@ -1284,7 +1277,7 @@ footer {
         height: 245px;
         width: auto !important; }
       .carousel .carousel-inner .carousel-item .carousel-caption {
-        display: block !important; }
+        margin-top: 65px !important; }
         .carousel .carousel-inner .carousel-item .carousel-caption h1 {
           font-size: 20px; }
         .carousel .carousel-inner .carousel-item .carousel-caption p {

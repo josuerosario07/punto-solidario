@@ -43,6 +43,9 @@
     .mobile-logo{
     display: none;
     }
+    video{
+        width: 100%;
+    }
     .top-mobile{
     display: none;
     }
@@ -179,8 +182,18 @@
     .content-slider{
     margin-top: 136px;
     }
+    .carousel-item{
+    height: 750px !important;
+    display: flex !important;
+    flex-flow: row wrap !important;
+    img{
+        width: auto !important;
+    }
+    }
     .carousel-caption{
-    margin-bottom: 12%;
+    // margin-bottom: 12%;
+    bottom: inherit !important;
+    margin-top: 290px;
     h1{
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
@@ -373,7 +386,7 @@
     }
     p{
     padding-left: 12px;
-    text-align: justify;
+    text-align: justify !important;
     }
     a{
     text-decoration: none;

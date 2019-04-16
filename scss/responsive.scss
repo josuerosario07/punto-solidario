@@ -1,32 +1,5 @@
 $rojo-solidario: #C50000;
 $morado-solidario:#0700B5;
-// resolciones del slider caption
-.content-slider .carousel .carousel-inner .carousel-item .carousel-caption{
-@media screen and (max-width:1440px){
-margin-bottom: 6%;
-}
-@media screen and (max-width:1100px){
-margin-bottom: 20px;
-}
-@media screen and (max-width:992px){
-margin-bottom: 60px;
-}
-@media screen and (max-width:800px){
-margin-bottom: 30px;
-}
-@media screen and (max-width:750px){
-margin-bottom: -10px;
-}
-@media screen and (max-width:570px){
-margin-bottom: 0px;
-h1{
-font-size: 25px;
-}
-p{
-font-size: 15px;
-}
-}
-}
 // resoluciones del header
 .punto-solidario-normal{
 @media screen and (max-width:992px){
@@ -166,6 +139,12 @@ font-size: 20px;
 text-align: left;
 }
 }
+.content-slider .carousel .carousel-inner .carousel-item{
+    height: 450px !important;
+    .carousel-caption{
+        margin-top: 150px;
+    }
+}
 .link-sites{
 h3{
 font-size: 1.25rem !important; 
@@ -286,7 +265,7 @@ height: 245px;
 width: auto !important;
 }
 .carousel-caption{
-display: block !important;
+margin-top: 65px !important;
 h1{
 font-size: 20px;
 }
