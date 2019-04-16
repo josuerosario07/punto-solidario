@@ -126,12 +126,16 @@
     margin-right: 10px;
     }
     li .nav-link:hover{
-    color: $rojo-solidario !important;
+    color: $morado-solidario !important;
     transition: 0.3s;
     }
     .active a{
-    color: $rojo-solidario !important;
+    color: $morado-solidario !important;
     }
+    .dropdown-item:hover{
+        background-color: #cbcbcb
+    }
+
     .ps-web-link{
     width: 120px;
     margin-top: -3px;

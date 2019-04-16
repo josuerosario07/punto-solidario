@@ -132,10 +132,12 @@ nav {
     margin-left: 10px;
     margin-right: 10px; }
   nav li .nav-link:hover {
-    color: #C50000 !important;
+    color: #0700B5 !important;
     transition: 0.3s; }
   nav .active a {
-    color: #C50000 !important; }
+    color: #0700B5 !important; }
+  nav .dropdown-item:hover {
+    background-color: #cbcbcb; }
   nav .ps-web-link {
     width: 120px;
     margin-top: -3px; }
