@@ -187,17 +187,15 @@
     margin-top: 136px;
     }
     .carousel-item{
-    height: 750px !important;
-    display: flex !important;
-    flex-flow: row wrap !important;
+    height: 500px !important;
     img{
-        width: auto !important;
+        height: 100% !important;
+        width: 100%;
+        object-fit: cover;
     }
     }
     .carousel-caption{
-    // margin-bottom: 12%;
-    bottom: inherit !important;
-    margin-top: 290px;
+    bottom:  124px;
     h1{
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
@@ -224,6 +222,9 @@
     .btn-2{
     margin-left: 20px;
     background-color: $morado-solidario;
+    }
+    @media screen and (max-width:1750px){
+        bottom:  100px;
     }
     }
     .middle-resume{
@@ -252,6 +253,9 @@
     font-weight: bold;
     font-size: 27px;
     margin-bottom: 30px;
+    }
+    p{
+        text-align: justify;
     }
     .video{
     height: 395px;
@@ -466,11 +470,10 @@
     }
     }
     .contac-form{
-    background-color: black;
-    color: white;
+    background-color: rgba(235, 235, 235, 0.681);
+    color: black;
     min-height: 598px;
     padding: 50px;
-    display: none;
     // transition: 0.5s;
     h1{
     font-weight: 800;

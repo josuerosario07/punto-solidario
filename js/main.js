@@ -20,9 +20,9 @@ $(document).ready(function(){
         }
     })
     
-    $(".escribir").click(function(){
-        $(".contac-form").slideToggle();
-      });
+    // $(".escribir").click(function(){
+    //     $(".contac-form").slideToggle();
+    //   });
   });
 
   $(function() {

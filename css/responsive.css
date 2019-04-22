@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .punto-solidario-normal {
     max-height: 300px;
     position: relative !important;
@@ -12,14 +12,14 @@
     .punto-solidario-normal .logo-top-mobile {
       display: block !important;
       margin: 10px auto; } }
-    @media screen and (max-width: 992px) and (max-width: 350px) {
+    @media screen and (max-width: 991px) and (max-width: 350px) {
       .punto-solidario-normal .logo-top-mobile {
         width: 250px; } }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .punto-solidario-normal hr {
       display: block;
       margin-bottom: 0px; } }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .punto-solidario-normal .navbar {
     padding: 10px !important; }
     .punto-solidario-normal .navbar form {
@@ -65,7 +65,7 @@
   .content .responsive-sitemap {
     margin-top: 30px;
     padding-left: 7% !important; } }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .escudo-top {
     display: block !important;
     margin: 0px auto;
@@ -85,7 +85,7 @@
   .content-slider .carousel .carousel-inner .carousel-item {
     height: 450px !important; }
     .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
-      margin-top: 150px; }
+      bottom: 120px; }
 
   .link-sites h3 {
     font-size: 1.25rem !important; }
@@ -166,7 +166,7 @@
         height: 245px;
         width: auto !important; }
       .carousel .carousel-inner .carousel-item .carousel-caption {
-        margin-top: 65px !important; }
+        bottom: 233px !important; }
         .carousel .carousel-inner .carousel-item .carousel-caption h1 {
           font-size: 20px; }
         .carousel .carousel-inner .carousel-item .carousel-caption p {

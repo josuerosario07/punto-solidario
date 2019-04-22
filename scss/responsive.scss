@@ -2,9 +2,9 @@ $rojo-solidario: #C50000;
 $morado-solidario:#0700B5;
 // resoluciones del header
 .punto-solidario-normal{
-@media screen and (max-width:992px){
+@media screen and (max-width:991px){
 .top-mobile{
-display: block;
+display: block  ;
 }
 max-height: 300px;
 position: relative !important;
@@ -27,7 +27,7 @@ margin-bottom: 0px;
 }
 }
 .navbar{
-@media screen and (max-width:992px){
+@media screen and (max-width:991px){
 padding: 10px !important;
 form{
 display: inline-block !important;
@@ -96,7 +96,7 @@ padding-left: 7% !important;
 }
 }
 // genral
-@media screen and (max-width:992px){
+@media screen and (max-width:991px){
 .escudo-top{
 display: block !important;
 margin: 0px auto;
@@ -142,7 +142,7 @@ text-align: left;
 .content-slider .carousel .carousel-inner .carousel-item{
     height: 450px !important;
     .carousel-caption{
-        margin-top: 150px;
+        bottom: 120px;
     }
 }
 .link-sites{
@@ -265,7 +265,7 @@ height: 245px;
 width: auto !important;
 }
 .carousel-caption{
-margin-top: 65px !important;
+bottom: 233px !important;
 h1{
 font-size: 20px;
 }
