@@ -189,10 +189,12 @@ nav {
   .carousel-caption h1 {
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619); }
   .carousel-caption p {
     font-size: 27px;
-    font-weight: bold; }
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619); }
   .carousel-caption .btn {
     min-width: 290px;
     min-height: 41px;
@@ -274,7 +276,7 @@ nav {
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
-  min-height: 960px; }
+  min-height: 400px; }
   .link-sites .foro,
   .link-sites .psweb,
   .link-sites .servicio-en-linea {
@@ -286,29 +288,37 @@ nav {
     align-items: center;
     justify-content: center;
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
+    background-size: 180%;
+    background-repeat: no-repeat;
+    transition: 0.5s; }
     .link-sites .foro .divider,
     .link-sites .psweb .divider,
     .link-sites .servicio-en-linea .divider {
       width: 50px;
       z-index: 99; }
-  .link-sites .background-filter {
-    width: 100%;
-    position: absolute;
-    background-color: black;
-    min-height: 960px;
-    opacity: 0.58; }
+    .link-sites .foro .background-filter,
+    .link-sites .psweb .background-filter,
+    .link-sites .servicio-en-linea .background-filter {
+      width: 100%;
+      position: absolute;
+      background-color: black;
+      min-height: 460px;
+      opacity: 0.38; }
+  .link-sites .foro:hover,
+  .link-sites .psweb:hover,
+  .link-sites .servicio-en-linea:hover {
+    background-size: 210%; }
   .link-sites .foro {
-    background-image: url(../assets/img/bg-1@2x.jpg); }
+    background-image: url(../assets/img/fotos/JPEG/6.jpg); }
   .link-sites .psweb {
-    background-image: url(../assets/img/bg-2@2x.jpg); }
+    background-image: url(../assets/img/fotos/JPEG/7.jpg); }
   .link-sites .servicio-en-linea {
-    background-image: url(../assets/img/bg-3@2x.jpg); }
+    background-image: url(../assets/img/fotos/JPEG/1.jpg); }
   .link-sites h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    z-index: 99; }
+    z-index: 99;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619); }
   .link-sites .btn {
     z-index: 99;
     border: none;
@@ -321,6 +331,15 @@ nav {
     transition: 0.3s;
     background-color: white;
     color: #C50000; }
+  @media screen and (max-width: 1100px) {
+    .link-sites {
+      min-height: 300px; } }
+  @media screen and (max-width: 991px) {
+    .link-sites {
+      min-height: 300px; } }
+  @media screen and (max-width: 700px) {
+    .link-sites {
+      min-height: 900px; } }
 
 .news {
   padding: 50px;
@@ -450,10 +469,10 @@ nav {
   flex-direction: row nowrap;
   flex-flow: row;
   margin-top: 70px;
-  height: 300px;
+  height: 270px;
   background-color: transparent;
   transition: all .3s ease-in-out; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 991px) {
     .banner-mini {
       display: none; } }
   .banner-mini .c1,
@@ -462,34 +481,40 @@ nav {
   .banner-mini .c4,
   .banner-mini .c5 {
     display: flex;
-    width: 100%;
-    height: 300px;
+    height: 180px;
     width: 300px;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 110%;
     transition: all .3s ease-in-out; }
+    @media screen and (max-width: 1200px) {
+      .banner-mini .c1,
+      .banner-mini .c2,
+      .banner-mini .c3,
+      .banner-mini .c4,
+      .banner-mini .c5 {
+        height: 140px; } }
   .banner-mini .c1 {
-    background-image: url(../assets/img/c1@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/11.jpg);
     flex: 1 1 auto; }
   .banner-mini .c2 {
-    background-image: url(../assets/img/c2@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/16.jpg);
     flex: 1 1 auto; }
   .banner-mini .c3 {
-    background-image: url(../assets/img/c3@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/15.jpg);
     flex: 1 1 auto; }
   .banner-mini .c4 {
-    background-image: url(../assets/img/c4@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/18.jpg);
     flex: 1 1 auto; }
   .banner-mini .c5 {
-    background-image: url(../assets/img/c5@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/30.jpg);
     flex: 1 1 auto; }
   .banner-mini .c1:hover,
   .banner-mini .c2:hover,
   .banner-mini .c3:hover,
   .banner-mini .c4:hover,
   .banner-mini .c5:hover {
-    background-size: 120%; }
+    background-size: 150% !important; }
 
 .interes h3 {
   font-weight: bold; }
@@ -565,7 +590,7 @@ footer {
 
 .banner-preguntas {
   min-height: 533px;
-  background-image: url(../assets/img/banner@2x.jpg);
+  background-image: url(../assets/img/fotos/JPEG/33.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -577,15 +602,26 @@ footer {
       font-family: 'Montserrat', sans-serif;
       font-weight: 800;
       font-size: 70px;
-      color: white; }
+      color: white;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619); }
     .banner-preguntas .jumbotron p {
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
-      color: white; }
+      color: white;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619); }
     .banner-preguntas .jumbotron .btn {
       border: none;
       border-radius: 0;
       background-color: #C50000; }
+
+.noticias-banner {
+  background-image: url(../assets/img/fotos/JPEG/24.jpg); }
+
+.banner-contacto {
+  background-image: url(../assets/img/fotos/JPEG/30.jpg); }
+
+.banner-preguntas-frecuentes {
+  background-image: url(../assets/img/fotos/JPEG/27.jpg); }
 
 .values-preguntas {
   margin-top: -30px; }
@@ -1139,6 +1175,35 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     display: inline-block; } }
+.tabs-services {
+  width: 100%; }
+  .tabs-services .nav-tabs {
+    padding-left: 26px; }
+    .tabs-services .nav-tabs .nav-link {
+      padding: 7px 100px;
+      color: #0700B5;
+      transition: 0.3s; }
+    .tabs-services .nav-tabs .active {
+      background-color: #0700B5;
+      color: white; }
+  .tabs-services .card-header {
+    background-color: white;
+    width: 100%; }
+    .tabs-services .card-header .btn {
+      color: black; }
+  .tabs-services .card-body {
+    padding: 50px; }
+  .tabs-services h5 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #0700B5;
+    margin-bottom: 10px; }
+  .tabs-services p {
+    font-size: 12px; }
+  .tabs-services ol {
+    margin-left: 50px;
+    font-size: 12px; }
+
 @media screen and (max-width: 991px) {
   .punto-solidario-normal {
     max-height: 300px;

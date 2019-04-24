@@ -206,10 +206,13 @@
     font-size: 70px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619);
+
     }
     p{
     font-size: 27px;
     font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619);
     }
     .btn{
     min-width: 290px;
@@ -316,7 +319,7 @@
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
-    min-height: 960px;
+    min-height: 400px;
     .foro,
     .psweb,
     .servicio-en-linea
@@ -329,33 +332,58 @@
     align-items: center;
     justify-content: center;
     background-position: center;
-    background-size: cover;
+    background-size: 180%;
     background-repeat: no-repeat;
+    transition: 0.5s;
     .divider{
     width: 50px;
     z-index: 99;
     }
-    }
     .background-filter{
-    width: 100%;
-    position: absolute;
-    background-color: black;
-    min-height: 960px;
-    opacity: 0.58;
+        width: 100%;
+        position: absolute;
+        background-color: black;
+        min-height: 460px;
+        opacity: 0.38;
+        }
+    }
+
+// @keyframes animation-bk {
+//     0%{
+//         background-size: cover;
+//     }
+//     1%{
+//         background-size: 100%;
+
+//     }
+//     100%{
+//         background-size: 160%;
+//     }
+// }
+
+    .foro:hover,
+    .psweb:hover,
+    .servicio-en-linea:hover{
+        // animation: animation-bk;
+        // animation-duration: 1s;
+        // animation-timing-function: ease-in;
+        background-size: 210%;
+
     }
     .foro{
-    background-image: url(../assets/img/bg-1@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/6.jpg);
     }
     .psweb{
-    background-image: url(../assets/img/bg-2@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/7.jpg);
     }
     .servicio-en-linea{
-    background-image: url(../assets/img/bg-3@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/1.jpg);
     }
     h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     z-index: 99;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619);
     // margin-top: 75%;
     }
     .btn{
@@ -371,6 +399,15 @@
     transition: 0.3s;
     background-color: white;
     color: $rojo-solidario;
+    }
+    @media screen and (max-width:1100px){
+        min-height: 300px;
+    }
+    @media screen and (max-width:991px){
+        min-height: 300px;
+    }
+    @media screen and (max-width:700px){
+        min-height: 900px;
     }
     }
     .news {
@@ -530,10 +567,10 @@
     flex-direction: row nowrap;
     flex-flow: row;
     margin-top: 70px;
-    height: 300px;
+    height: 270px;
     background-color: transparent;
     transition: all .3s ease-in-out;
-    @media screen and (max-width:768px){
+    @media screen and (max-width:991px){
         display: none;
     }
     .c1,
@@ -542,33 +579,36 @@
     .c4,
     .c5{
     display: flex;
-    width: 100%;
-    height: 300px;
+    // width: 140%;
+    height:180px;
     width: 300px;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 110%;
     transition: all .3s ease-in-out;
+    @media screen and (max-width:1200px){
+        height:140px;
+    }
     }
     .c1{
-    background-image: url(../assets/img/c1@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/11.jpg);
     flex: 1 1 auto;
     }
     .c2{
-    background-image: url(../assets/img/c2@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/16.jpg);
     flex: 1 1 auto;
 
     }
     .c3{
-    background-image: url(../assets/img/c3@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/15.jpg);
     flex: 1 1 auto;
     }
     .c4{
-    background-image: url(../assets/img/c4@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/18.jpg);
     flex: 1 1 auto;
     }
     .c5{
-    background-image: url(../assets/img/c5@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/30.jpg);
     flex: 1 1 auto;
     }
     .c1:hover,
@@ -576,8 +616,21 @@
     .c3:hover,
     .c4:hover,
     .c5:hover{
-       background-size : 120%;
+       background-size : 150% !important;
+
     }
+
+    // @media screen and (max-width:1600px){
+    //     background-size: 180%;
+    //     .c1:hover,
+    //     .c2:hover,
+    //     .c3:hover,
+    //     .c4:hover,
+    //     .c5:hover{
+    //    background-size : 200%;
+    // }
+    // }
+
     }
 
 
@@ -657,7 +710,7 @@
     // preguntas Frecuentes
     .banner-preguntas{
     min-height:533px;
-    background-image: url(../assets/img/banner@2x.jpg);
+    background-image: url(../assets/img/fotos/JPEG/33.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -670,11 +723,14 @@
     font-weight: 800;
     font-size: 70px;
     color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619);
     }
     p{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.619);
+
     }
     .btn{
     border: none;
@@ -682,6 +738,15 @@
     background-color: $rojo-solidario;
     }
     }
+    }
+    .noticias-banner{
+        background-image: url(../assets/img/fotos/JPEG/24.jpg);
+    }
+    .banner-contacto{
+        background-image: url(../assets/img/fotos/JPEG/30.jpg);
+    }
+    .banner-preguntas-frecuentes{
+        background-image: url(../assets/img/fotos/JPEG/27.jpg);
     }
     .values-preguntas{
     margin-top: -30px;
@@ -1231,4 +1296,47 @@
     margin-top: 5px;
     margin-bottom: 5px;
     display: inline-block; } }
+
+// lista de servicios
+.tabs-services{
+    width: 100%;
+    .nav-tabs{
+        padding-left: 26px;
+        .nav-link{
+            padding: 7px 100px;
+            color: $morado-solidario;
+            transition: 0.3s;
+        }
+        .active{
+            background-color: $morado-solidario;
+            color: white;
+        }
+    }
+    .card-header{
+        background-color: white;
+        width: 100%;
+        .btn{
+            color: black;
+        }
+    }
+    .card-body{
+        padding:50px
+    }
+    h5{
+        font-weight: bold;
+        font-size: 15px;
+        color: $morado-solidario;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 12px;
+    }
+    ol{
+        margin-left: 50px;
+        font-size: 12px;
+    }
+}
+
+
+
     @import 'responsive';
