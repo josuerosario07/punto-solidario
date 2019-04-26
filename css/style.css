@@ -1204,6 +1204,69 @@ footer {
     margin-left: 50px;
     font-size: 12px; }
 
+.buscador {
+  background-color: #0700B5;
+  position: relative;
+  z-index: 9;
+  min-height: 60px;
+  margin-top: -34px; }
+  .buscador .input-group {
+    margin-top: 10px;
+    max-width: 400px; }
+    .buscador .input-group .input-group-text {
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      background-color: white;
+      border-right: none; }
+    .buscador .input-group .input-group-prepend, .buscador .input-group input {
+      border-radius: 30px; }
+  .buscador h4 {
+    color: white;
+    margin-top: 15px; }
+
+.foro-container {
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: white; }
+
+.blog-container {
+  background-color: white;
+  text-align: right;
+  display: flex; }
+  .blog-container .temas .row {
+    margin-top: 40px; }
+  .blog-container img {
+    width: 100%; }
+  .blog-container h4 {
+    font-size: 28px !important;
+    font-weight: lighter;
+    color: black;
+    margin: 0;
+    padding-left: 0px; }
+  .blog-container h2 {
+    font-weight: 800; }
+  .blog-container h5 {
+    font-size: 15px;
+    font-weight: normal; }
+  .blog-container p {
+    font-size: 11px; }
+  .blog-container .left p {
+    font-weight: bold !important;
+    font-style: oblique;
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: right !important; }
+  .blog-container .panel {
+    text-align: left !important; }
+    .blog-container .panel p {
+      font-weight: normal !important;
+      font-size: 12px;
+      padding-left: 0px; }
+    .blog-container .panel h3 {
+      font-weight: 800;
+      font-size: 24px;
+      color: #2391E2; }
+
 @media screen and (max-width: 991px) {
   .punto-solidario-normal {
     max-height: 300px;
