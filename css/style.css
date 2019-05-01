@@ -156,7 +156,7 @@ nav {
   display: none; }
 
 .punto-solidario-plus {
-  height: 80px !important;
+  height: 67px !important;
   top: 0;
   transition: 0.3s; }
   .punto-solidario-plus hr {
@@ -169,6 +169,8 @@ nav {
     background-color: white; }
     .punto-solidario-plus .navbar .logo-plus {
       display: block; }
+      .punto-solidario-plus .navbar .logo-plus img {
+        max-width: 220px; }
       .punto-solidario-plus .navbar .logo-plus img {
         margin-top: 0px !important; }
     .punto-solidario-plus .navbar ul li {
@@ -1236,7 +1238,12 @@ footer {
   .blog-container .temas .row {
     margin-top: 40px; }
   .blog-container img {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 15px; }
+  .blog-container h3 {
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 800; }
   .blog-container h4 {
     font-size: 28px !important;
     font-weight: lighter;
@@ -1253,7 +1260,6 @@ footer {
   .blog-container .left p {
     font-weight: bold !important;
     font-style: oblique;
-    margin-top: 20px;
     font-size: 11px;
     text-align: right !important; }
   .blog-container .panel {
@@ -1266,6 +1272,34 @@ footer {
       font-weight: 800;
       font-size: 24px;
       color: #2391E2; }
+  .blog-container .btn {
+    width: 100%; }
+  .blog-container form .btn {
+    max-width: 200px; }
+  .blog-container .respuesta {
+    background-color: #F4F4F4;
+    padding: 5px; }
+    .blog-container .respuesta .row {
+      margin-top: 15px; }
+    .blog-container .respuesta .valoraciones p {
+      text-align: right !important; }
+      .blog-container .respuesta .valoraciones p .fas {
+        color: #C50000;
+        font-size: 16px;
+        margin-left: 5px; }
+    .blog-container .respuesta img {
+      width: 80%; }
+  .blog-container .contra-respuesta {
+    padding-left: 30px;
+    padding-right: 30px; }
+    .blog-container .contra-respuesta img {
+      width: 50%; }
+    .blog-container .contra-respuesta h5 {
+      font-size: 13px; }
+    .blog-container .contra-respuesta .btn {
+      max-width: 100px; }
+  .blog-container p {
+    padding-left: 0px !important; }
 
 @media screen and (max-width: 991px) {
   .punto-solidario-normal {
@@ -1334,6 +1368,13 @@ footer {
   .content .responsive-sitemap {
     margin-top: 30px;
     padding-left: 7% !important; } }
+@media screen and (max-width: 1200px) {
+  .blog-container h4 {
+    font-size: 18px !important; }
+  .blog-container h2 {
+    font-size: 23px; }
+  .blog-container h5 {
+    font-size: 13px; } }
 @media screen and (max-width: 991px) {
   .escudo-top {
     display: block !important;
@@ -1355,6 +1396,11 @@ footer {
     height: 450px !important; }
     .content-slider .carousel .carousel-inner .carousel-item .carousel-caption {
       bottom: 120px; }
+
+  .blog-container h4 {
+    display: none; }
+  .blog-container h2 {
+    margin-top: 5px; }
 
   .link-sites h3 {
     font-size: 1.25rem !important; }

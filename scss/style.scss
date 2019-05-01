@@ -158,7 +158,7 @@
     }
     // other nav{
     .punto-solidario-plus{
-    height: 80px !important;
+    height: 67px !important;
     top: 0;
     transition: 0.3s;
     hr{
@@ -174,6 +174,9 @@
     background-color: white;
     .logo-plus{
     display: block;
+    img{
+        max-width: 220px;
+    }
     img{
     margin-top: 0px !important;
     }
@@ -1378,6 +1381,12 @@
     display: flex;
     img{
         width: 100%;
+        margin-bottom: 15px;
+    }
+    h3{
+        text-align: left;
+        padding-left: 15px;
+        font-weight: 800;
     }
     h4{
         font-size: 28px !important;
@@ -1399,7 +1408,6 @@
     .left p{
         font-weight: bold !important;
         font-style: oblique;
-        margin-top: 20px;
         font-size: 11px;
         text-align: right !important;
     }
@@ -1417,6 +1425,52 @@
             color: #2391E2;
         }
     }
+    .btn{
+        width: 100%;
+    }
+    form{
+        .btn{
+            max-width: 200px;
+        }
+    }
+    .respuesta{
+        background-color: #F4F4F4;
+        padding: 5px;
+        .row{
+            margin-top: 15px;
+        }
+        .valoraciones{
+            p{
+                text-align: right !important;
+                .fas{
+                    color: $rojo-solidario;
+                    font-size: 16px;
+                    margin-left: 5px;
+                }
+            }
+        }
+        img{
+            width: 80%;
+        }
+    }
+    .contra-respuesta{
+        padding-left: 30px;
+        padding-right: 30px;
+        img{
+            width: 50%;
+        }
+        h5{
+            font-size: 13px;
+        }
+        .btn{
+            max-width: 100px;
+        }
+    }
+    p{
+        padding-left: 0px !important;
+    }
+
+
 }
 
 
