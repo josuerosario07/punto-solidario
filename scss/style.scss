@@ -1367,14 +1367,26 @@
 }
 .foro-container{
     margin-top: 0px;
-    padding-top: 0px;
+    padding-top: 40px;
     background-color: white;
+    h3{
+        margin-bottom: 0px !important;
+        text-align: left;
+        font-weight: 800; 
+        font-size: 32px; 
+    }
+    h4{
+        text-align: left;
+    }
+    p{
+        margin-top: 0px !important;
+        font-size: 15px !important;
+    }
     .titulo{
         width: 50% !important;
         h3{
             text-align: left;
-            padding-left: 15px;
-            font-weight: 800;     
+            font-weight: 800;  
         }
         @media screen and (max-width:600px) {
                 width: 100% !important;
@@ -1383,6 +1395,10 @@
 }
 .blog-container{
     background-color: white;
+    padding-top: 0px;
+    h3{
+        text-align: left
+    }
     .temas{
         .row{
             margin-top: 40px;
@@ -1416,6 +1432,7 @@
         font-style: oblique;
         font-size: 11px;
         text-align: right !important;
+        margin-top: 12px;
     }
 
     .panel{
@@ -1428,11 +1445,22 @@
         h3{
             font-weight: 800;
             font-size: 24px;
-            color: #2391E2;
+            color: $morado-solidario;
+        }
+        .link{
+            h2{
+                text-align: center;
+                font-size: 40px;
+            }
         }
     }
     .btn{
         width: 100%;
+        background-color: #2789D1;
+        border: solid 1px #2789D1;
+    }
+    .btn:hover{
+        color: #2789D1;
     }
     form{
         .btn{
@@ -1487,8 +1515,36 @@
     p{
         padding-left: 0px !important;
     }
+    .fas{
+        color: $rojo-solidario;
+        margin-left: 5px;
+        font-size: 16px;
+    }
 
+    .header-categorias{
+        .row{
+            .col-sm-7{
+                padding-left: 0px !important;
+            }
+            img{
+                width: 80%;
+                display: block;
+                margin: 10px auto;
+            }
+        }
+    }
+    .banner-top{
+        margin-top: 40px !important;
+     }
 
+}
+
+.regresar{
+    .btn{
+        background-color: $morado-solidario;
+        border-radius: 0px;max-width: 300px;
+        border: none;
+    }
 }
 
 

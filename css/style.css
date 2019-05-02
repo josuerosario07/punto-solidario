@@ -1228,13 +1228,22 @@ footer {
 
 .foro-container {
   margin-top: 0px;
-  padding-top: 0px;
+  padding-top: 40px;
   background-color: white; }
+  .foro-container h3 {
+    margin-bottom: 0px !important;
+    text-align: left;
+    font-weight: 800;
+    font-size: 32px; }
+  .foro-container h4 {
+    text-align: left; }
+  .foro-container p {
+    margin-top: 0px !important;
+    font-size: 15px !important; }
   .foro-container .titulo {
     width: 50% !important; }
     .foro-container .titulo h3 {
       text-align: left;
-      padding-left: 15px;
       font-weight: 800; }
     @media screen and (max-width: 600px) {
       .foro-container .titulo {
@@ -1242,8 +1251,11 @@ footer {
 
 .blog-container {
   background-color: white;
+  padding-top: 0px;
   text-align: right;
   display: flex; }
+  .blog-container h3 {
+    text-align: left; }
   .blog-container .temas .row {
     margin-top: 40px; }
   .blog-container img {
@@ -1266,7 +1278,8 @@ footer {
     font-weight: bold !important;
     font-style: oblique;
     font-size: 11px;
-    text-align: right !important; }
+    text-align: right !important;
+    margin-top: 12px; }
   .blog-container .panel {
     text-align: left !important; }
     .blog-container .panel p {
@@ -1276,9 +1289,16 @@ footer {
     .blog-container .panel h3 {
       font-weight: 800;
       font-size: 24px;
-      color: #2391E2; }
+      color: #0700B5; }
+    .blog-container .panel .link h2 {
+      text-align: center;
+      font-size: 40px; }
   .blog-container .btn {
-    width: 100%; }
+    width: 100%;
+    background-color: #2789D1;
+    border: solid 1px #2789D1; }
+  .blog-container .btn:hover {
+    color: #2789D1; }
   .blog-container form .btn {
     max-width: 200px; }
   .blog-container .respuesta {
@@ -1313,6 +1333,24 @@ footer {
         margin-right: -15px !important; }
   .blog-container p {
     padding-left: 0px !important; }
+  .blog-container .fas {
+    color: #C50000;
+    margin-left: 5px;
+    font-size: 16px; }
+  .blog-container .header-categorias .row .col-sm-7 {
+    padding-left: 0px !important; }
+  .blog-container .header-categorias .row img {
+    width: 80%;
+    display: block;
+    margin: 10px auto; }
+  .blog-container .banner-top {
+    margin-top: 40px !important; }
+
+.regresar .btn {
+  background-color: #0700B5;
+  border-radius: 0px;
+  max-width: 300px;
+  border: none; }
 
 @media screen and (max-width: 991px) {
   .punto-solidario-normal {
