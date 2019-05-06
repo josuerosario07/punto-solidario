@@ -1299,7 +1299,8 @@ footer {
     .blog-container .panel h3 {
       font-weight: 800;
       font-size: 24px;
-      color: #0700B5; }
+      color: #0700B5;
+      margin-left: -15px !important; }
     .blog-container .panel .link h2 {
       text-align: center;
       font-size: 40px; }
@@ -1349,12 +1350,18 @@ footer {
     font-size: 16px; }
   .blog-container .header-categorias .row .col-sm-7 {
     padding-left: 0px !important; }
+  .blog-container .header-categorias .row h2 {
+    margin-top: 22px; }
   .blog-container .header-categorias .row img {
     width: 80%;
     display: block;
-    margin: 10px auto; }
+    margin: 0px auto; }
   .blog-container .banner-top {
     margin-top: 40px !important; }
+  .blog-container .cuadro-debate .btn {
+    font-size: 12px;
+    width: 100%;
+    padding: 7px; }
 
 .regresar .btn {
   background-color: #0700B5;
