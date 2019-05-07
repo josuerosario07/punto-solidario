@@ -84,6 +84,33 @@ iframe {
 header {
   background-color: white; }
 
+.ruta ul {
+  margin-top: 170px; }
+  @media screen and (max-width: 991px) {
+    .ruta ul {
+      margin-top: 20px; } }
+  .ruta ul li {
+    display: inline-block;
+    font-weight: bold; }
+    .ruta ul li a {
+      color: black; }
+    .ruta ul li .active {
+      color: #C50000; }
+
+.ruta-secundaria ul {
+  position: relative;
+  z-index: 999; }
+  @media screen and (max-width: 991px) {
+    .ruta-secundaria ul {
+      margin-top: 20px; } }
+  .ruta-secundaria ul li {
+    display: inline-block;
+    font-weight: bold; }
+    .ruta-secundaria ul li a {
+      color: black; }
+    .ruta-secundaria ul li .active {
+      color: #C50000; }
+
 .punto-solidario-normal {
   background-color: white;
   padding-right: 50px;
@@ -732,6 +759,9 @@ footer {
       font-weight: 600; }
       .content .lista li span a {
         color: black; }
+
+.mapa-sitio-seccion {
+  margin-top: 30px; }
 
 /* ---------------------- tirado sitemap hardcore --------------------------*/
 @media screen and (min-width: 1270px) {

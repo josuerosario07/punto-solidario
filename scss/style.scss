@@ -63,6 +63,43 @@
     header{
     background-color: white;
     }
+    .ruta{
+        ul{
+            margin-top: 170px;
+            @media screen and (max-width:991px) {
+                margin-top:20px;
+            }
+            li{
+                display: inline-block;
+                font-weight: bold;
+                a{
+                    color: black;
+                }
+                .active{
+                    color: $rojo-solidario;
+                }
+            }
+        }
+    }
+    .ruta-secundaria{
+        ul{
+            position: relative;
+            z-index: 999;
+            @media screen and (max-width:991px) {
+                margin-top:20px;
+            }
+            li{
+                display: inline-block;
+                font-weight: bold;
+                a{
+                    color: black;
+                }
+                .active{
+                    color: $rojo-solidario;
+                }
+            }
+        }
+    }
     .punto-solidario-normal{
     background-color: white;
     padding-right: 50px;
@@ -894,6 +931,9 @@
     }
     }
     }
+    }
+    .mapa-sitio-seccion{
+        margin-top: 30px;
     }
     /* ---------------------- tirado sitemap hardcore --------------------------*/
     @media screen and (min-width: 1270px) {

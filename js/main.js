@@ -33,7 +33,6 @@ $(document).ready(function(){
         var scroll = $(window).scrollTop();
         if(windowWidth > 991)
         {
-            console.log(windowWidth);
             if (scroll >= 200) {
                 header.removeClass('punto-solidario-normal').addClass("punto-solidario-plus");
             } else {
