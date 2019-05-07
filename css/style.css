@@ -99,7 +99,8 @@ header {
 
 .ruta-secundaria ul {
   position: relative;
-  z-index: 999; }
+  z-index: 999;
+  margin-top: 170px; }
   @media screen and (max-width: 991px) {
     .ruta-secundaria ul {
       margin-top: 20px; } }
