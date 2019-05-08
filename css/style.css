@@ -97,28 +97,33 @@ header {
     .ruta ul li .active {
       color: #C50000; }
 
-.ruta-secundaria ul {
-  position: relative;
-  z-index: 999;
-  margin-top: 170px; }
-  @media screen and (max-width: 991px) {
-    .ruta-secundaria ul {
-      margin-top: 20px; } }
-  .ruta-secundaria ul li {
-    display: inline-block;
-    font-weight: bold; }
-    .ruta-secundaria ul li a {
-      color: black; }
-    .ruta-secundaria ul li .active {
-      color: #C50000; }
+.ruta-secundaria {
+  width: 100%;
+  box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.16) !important;
+  padding-bottom: 7px;
+  padding-left: 20px; }
+  .ruta-secundaria ul {
+    position: relative;
+    z-index: 999;
+    margin-top: 170px; }
+    @media screen and (max-width: 991px) {
+      .ruta-secundaria ul {
+        margin-top: 20px; } }
+    .ruta-secundaria ul li {
+      display: inline-block;
+      font-weight: bold; }
+      .ruta-secundaria ul li a {
+        color: black; }
+      .ruta-secundaria ul li .active {
+        color: #C50000; }
 
 .punto-solidario-normal {
   background-color: white;
   padding-right: 50px;
   padding-left: 50px;
   max-height: 158px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
-  transition: 0.3s !important; }
+  transition: 0.3s !important;
+  border-bottom: solid 1px #ececec; }
   .punto-solidario-normal hr {
     display: none; }
   .punto-solidario-normal .gobernet-brand {
@@ -213,7 +218,7 @@ nav {
       display: inline-block !important; }
 
 .content-slider {
-  margin-top: 136px; }
+  margin-top: -18px; }
 
 .carousel-item {
   height: 500px !important; }
@@ -1399,6 +1404,13 @@ footer {
   border-radius: 0px;
   max-width: 300px;
   border: none; }
+
+.img-intereses img {
+  width: 100%; }
+.img-intereses p {
+  font-weight: bold;
+  text-align: center !important;
+  font-size: 15px; }
 
 @media screen and (max-width: 991px) {
   .punto-solidario-normal {
