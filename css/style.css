@@ -1259,7 +1259,7 @@ footer {
 .buscador {
   background-color: #0700B5;
   position: relative;
-  z-index: 9;
+  z-index: 0;
   min-height: 60px;
   margin-top: -34px; }
   .buscador .input-group {
@@ -1273,6 +1273,29 @@ footer {
     .buscador .input-group .input-group-prepend, .buscador .input-group input {
       border-radius: 30px; }
   .buscador h4 {
+    color: white;
+    margin-top: 15px; }
+
+.buscador-plus {
+  background-color: #0700B5;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 66px;
+  position: fixed;
+  min-height: 60px;
+  /* margin-top: -34px; */ }
+  .buscador-plus .input-group {
+    margin-top: 10px;
+    max-width: 400px; }
+    .buscador-plus .input-group .input-group-text {
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      background-color: white;
+      border-right: none; }
+    .buscador-plus .input-group .input-group-prepend, .buscador-plus .input-group input {
+      border-radius: 30px; }
+  .buscador-plus h4 {
     color: white;
     margin-top: 15px; }
 

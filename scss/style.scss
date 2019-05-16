@@ -1405,9 +1405,36 @@
 .buscador{
     background-color: $morado-solidario;
     position: relative;
-    z-index: 9;
+    z-index: 0;
     min-height: 60px;
     margin-top: -34px;
+    .input-group{
+        margin-top: 10px;
+        max-width: 400px;
+        .input-group-text{
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            background-color: white;
+            border-right: none;
+        }
+        .input-group-prepend, input{
+            border-radius: 30px;
+        }
+    }
+    h4{
+        color: white;
+        margin-top: 15px;
+    }
+}
+.buscador-plus {
+    background-color: #0700B5;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 66px;
+    position: fixed;
+    min-height: 60px;
+    /* margin-top: -34px; */
     .input-group{
         margin-top: 10px;
         max-width: 400px;

@@ -42,3 +42,21 @@ $(document).ready(function(){
 
     });
 });
+
+$(function() {
+    var header = $("#top-buscador");
+    $(window).scroll(function() {    
+        var windowWidth =  $(window).width();
+        
+        var scroll = $(window).scrollTop();
+        if(windowWidth > 991)
+        {
+            if (scroll >= 585) {
+                header.removeClass('buscador').addClass("buscador-plus");
+            } else {
+                header.removeClass("buscador-plus").addClass('buscador');
+            }
+        }
+
+    });
+});
